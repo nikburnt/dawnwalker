@@ -85,6 +85,12 @@ The three saved game-panel screenshots determine perk rows, branch junctions, Ul
 
 The ability-icon import previously picked related-ability thumbnails or blank placeholders. **26 icons** were replaced with the distinct texture URLs explicitly present in the corresponding MetaBot skill pages, checked against their titles and the saved game asset names. Soul Reaping has no original icon in the saved Codex or MetaBot record; its tree node uses a question mark labelled **Icon unavailable**. This visual correction does not change rank effects, costs, prerequisites or existing builds.
 
+### Manual requirements in rank rows
+
+Each training-cost row now shows one manual where the catalogue establishes that its rank exceeds the skill's starting availability. Ranks within that availability show no manual requirement. Unknown starting availability displays `?` beside the book in both rank rows and the next-rank cost, consistent with the upper-bound manual total.
+
+Fate's Favour has a confirmed manual item, but the saved Codex and GamesDB records do not give its initial manual-free ranks. The [Fextralife perk page](https://bloodofdawnwalker.wiki.fextralife.com/Fate%27s_Favour) and [manual page](https://bloodofdawnwalker.wiki.fextralife.com/Fate%27s_Favour_Manual), checked on 8 September 2026, also do not identify the required ranks. Its rank requirements therefore remain unconfirmed rather than being inferred from the existence of a manual, the perk tier, or the number of readable book parts. Source responses are retained locally in `research/manual-rank-indicators`.
+
 ### Resource icons
 
 Skill Points (sun and crescent), Manuals (open book) and Time (hourglass) use the actual glyphs visible in the [official Xbox Wire gameplay screenshot](https://xboxwire.thesourcemediaassets.com/sites/2/2026/07/The-Blood-of-Dawnwalker-Screenshot-26-199957e4b246b93ca127.jpg) from the [7 July hands-on preview](https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/). The resource bar, build-cost summary and skill-card training costs share these icons. Skill cards display glyphs beside numeric costs; resource labels remain available to screen readers and as hover hints.
