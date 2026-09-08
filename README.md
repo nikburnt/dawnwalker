@@ -8,14 +8,16 @@ The interface, skill descriptions, tooltips and build summaries are in English.
 
 Search all skills by name with **Find a skill** (**Command-K / Ctrl-K**). Perks keep readable labels; drag or swipe the tree to explore. Abilities have their own grid, and training costs and rank controls stay visible at the bottom of the skill card. The layout adapts to narrow screens and keeps all resource types visible.
 
+All 27 abilities include a silent gameplay preview from Fextralife. Select an ability to watch it, then use the video controls to pause, seek or enter full screen. With **Reduce Motion** enabled, press Play to start. Clips are included for offline use and link to their source pages.
+
 The wiki cross-check adds 22 acquisition routes, four numerical Ultimate effects, Nourishing Blood Corruption gates, and corrections for manual unlocks and direct blood rewards. Open **How to obtain · location spoilers** in a skill card for its route and source.
 
 Select a skill and add ranks. Equip learned abilities in the available slots. Open the build summary for costs and effects. Planning mode allows future unlocks; inventory mode checks your declared resources and unlocked ranks.
 
 Builds stay in your browser. Use JSON export and import to move them between devices. Unconfirmed game values are marked with a question mark and can be overridden using your own game data.
 
-This repository contains the ready-to-use static site. All code and images are embedded in `index.html`; you can also download it and use it offline without a server. GitHub Pages publishes the root of `main`. Replace `index.html` with a new standalone build to update the website.
+This repository contains the ready-to-use static site. All code, images and videos are embedded in `index.html`; you can also download it and use it offline without a server. GitHub Pages publishes the root of `main`. Replace `index.html` with a new standalone build to update the website.
 
 [Sources, methodology and data limitations](SOURCES.md). Data snapshot: 8 September 2026. Research snapshots referenced in that document are retained locally by the author and are not included in this publication.
 
-Game icons and illustrations belong to their respective rights holders. This is not an official product of Rebel Wolves or Bandai Namco.
+Game icons, illustrations and animation footage belong to their respective rights holders. This is not an official product of Rebel Wolves or Bandai Namco.
