@@ -18,6 +18,8 @@ Builds stay in your browser. Use JSON export and import to move them between dev
 
 This repository contains the ready-to-use static site. All code, images and videos are embedded in `index.html`; you can also download it and use it offline without a server. GitHub Pages publishes the root of `main`. Replace `index.html` with a new standalone build to update the website.
 
+Resource icons use the game glyphs from an official screenshot, bundled for offline use.
+
 [Sources, methodology and data limitations](SOURCES.md). Data snapshot: 8 September 2026. Research snapshots referenced in that document are retained locally by the author and are not included in this publication.
 
 Game icons, illustrations and animation footage belong to their respective rights holders. This is not an official product of Rebel Wolves or Bandai Namco.
