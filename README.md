@@ -18,6 +18,8 @@ Builds stay in your browser. Use JSON export and import to move them between dev
 
 This repository contains the ready-to-use static site. All code, images and videos are embedded in `index.html`; you can also download it and use it offline without a server. GitHub Pages publishes the root of `main`. Replace `index.html` with a new standalone build to update the website.
 
+The header uses the official game wordmark. Build resources sit beside the learned count and zoom controls in compact icon–value–label rows. On narrow screens, labels hide and the icons and values remain. The sliders button opens resources and availability. Open **Manuals** for the selected build’s book list, required copies and links to locations, vendors and acquisition guides.
+
 Each rank lists its manual requirement with a book icon. A question mark marks an unconfirmed requirement.
 
 The three skill-tree tabs use the original in-game Swordmastery, Witchcraft and Vampirism emblems.

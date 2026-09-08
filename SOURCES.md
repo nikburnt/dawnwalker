@@ -85,6 +85,14 @@ The three saved game-panel screenshots determine perk rows, branch junctions, Ul
 
 The ability-icon import previously picked related-ability thumbnails or blank placeholders. **26 icons** were replaced with the distinct texture URLs explicitly present in the corresponding MetaBot skill pages, checked against their titles and the saved game asset names. Soul Reaping has no original icon in the saved Codex or MetaBot record; its tree node uses a question mark labelled **Icon unavailable**. This visual correction does not change rank effects, costs, prerequisites or existing builds.
 
+### Header logo and manual acquisition links
+
+The header wordmark is the unmodified official horizontal logo from the [PlayStation game page](https://www.playstation.com/en-us/games/the-blood-of-dawnwalker/), stored as `public/ui/dawnwalker-logo.png` (2858 × 592). Its promotional metadata identifies the image as `LOGO`. [Original PNG](https://image.api.playstation.com/vulcan/ap/rnd/202601/2919/61e47ed014809c32ec5a65e213e13c079e0e64f819fe176b.png). It is scaled in CSS and embedded in the offline file. The [Bandai Namco media gallery](https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker/media) also supplies a stacked emblem-and-wordmark variant; the horizontal variant is used to keep the header compact. Logo provenance is retained in local `research/header-manuals` records.
+
+Skill Points, training time and Corruption are presented as compact icon–value–label rows in the tree toolbar, alongside the learned count, zoom and Fit tree. Labels hide based on the available tree width, retaining accessible text and hover titles. Manuals has its own dropdown, populated from the same selected-build manual totals as the summary. It preserves uncertain quantities as upper bounds and shows an empty state when no additional books are needed.
+
+The dropdown's **Locations & vendors** URLs are copied from the actual manual links in the saved MetaBot skill pages; all 49 manual-bearing skills have an exact link. The mapping is kept in `app/manual-links.json`, with its source-page provenance and HTTP/title checks in local `research/header-manuals` records. All 49 pages returned HTTP 200 with the matching manual title on 8 September 2026. Known acquisition-guide links come from the existing per-skill acquisition metadata. The dropdown exposes these links intentionally; unrelated research references and animation attribution remain in documentation.
+
 ### Manual requirements in rank rows
 
 Each training-cost row now shows one manual where the catalogue establishes that its rank exceeds the skill's starting availability. Ranks within that availability show no manual requirement. Unknown starting availability displays `?` beside the book in both rank rows and the next-rank cost, consistent with the upper-bound manual total.
