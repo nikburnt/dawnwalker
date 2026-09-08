@@ -20,13 +20,13 @@ Data snapshot: **8 September 2026**. Retrieved pages and structured source snaps
 
 The normalized catalogue contains **90 skills / 274 ranks**: 63 perks and 27 abilities. The saved tables provide SP costs for 266 ranks. Astral Communion and Compel Soul are included as abilities without a common slot, but their costs and progression remain unconfirmed. GamesDB may incorrectly accumulate their bonuses; those numbers are excluded from numerical totals.
 
-Some Codex ability descriptions are empty. Their original text is supplemented from GamesDB with a warning in the skill card. These values should be checked against the game; they are not independently verified damage formulas.
+Some Codex ability descriptions are empty. Their original text is supplemented from GamesDB with a warning retained in the catalogue metadata. These values should be checked against the game; they are not independently verified damage formulas.
 
 ## Wiki cross-check: 8 September 2026
 
 [Dawnwalker Database Wiki — Skills](https://dawnwalkerdatabase.wiki/skills/) supplied additional leads. Its official screenshots and linked gameplay guides were checked before changing progression. Several wiki summaries assign effects to the wrong names (including Witchcraft Mastery and the two blood buffs), so the existing source-backed descriptions were retained.
 
-The update adds information to 27 skills, including 22 acquisition notes. Every affected card links to the supporting source. Acquisition routes are collapsed under **How to obtain · location spoilers**.
+The update adds information to 27 skills, including 22 acquisition notes. Every affected catalogue entry retains its supporting source as metadata. Acquisition routes are collapsed under **How to obtain · location spoilers**.
 
 | Addition | Evidence and treatment |
 |---|---|
@@ -39,7 +39,7 @@ The update adds information to 27 skills, including 22 acquisition notes. Every 
 | Witchcraft acquisition | Ten routes, including Anca's early unlocks. Burning Blood and Mercurial Fervour need no first manual; Life Lock replaces its first manual with a quest unlock, which must be marked in My game. [PC Gamer](https://www.pcgamer.com/games/rpg/blood-of-dawnwalker-witchcraft-ability-manual-locations/). |
 | Vrakhir acquisition | Five routes. Scarlet Shield, Shadowstorm and Blood Surge rank I are direct blood rewards requiring no SP. The planner therefore counts no training time for receiving them; quest time is outside the training budget. Later ranks retain catalogue costs and require declared unlocks. [PC Gamer](https://www.pcgamer.com/games/rpg/blood-of-dawnwalker-vrakhir-blood-abilities/). |
 
-The three blood rewards replace the generic first-rank 1 SP entries with zero; the source and reason are shown in their cards. Starting availability does not establish free training for other skills, so their existing training costs were not changed. Unconfirmed costs remain: **8 SP entries, 19 training-time entries and 73 Corruption entries**. The last count includes special unlocks whose numeric threshold is unknown; declaring an unlock resolves their availability for your build.
+The three blood rewards replace the generic first-rank 1 SP entries with zero; the source and reason are retained in their catalogue metadata. Starting availability does not establish free training for other skills, so their existing training costs were not changed. Unconfirmed costs remain: **8 SP entries, 19 training-time entries and 73 Corruption entries**. The last count includes special unlocks whose numeric threshold is unknown; declaring an unlock resolves their availability for your build.
 
 Exact numbers for Aether Cascade, Entwined Torment and Lethal Crescendo were not independently established in this pass. Some fan sites also list casting costs, but rank scaling and conflicting descriptions prevent their use as a reliable combat-cost formula. These values remain unconfirmed.
 
@@ -65,15 +65,15 @@ Permanent modifiers and conditional bonuses remain separate. Precision depends o
 
 ## Values still requiring verification
 
-- Most individual vampiric Corruption thresholds. Known thresholds are included; others can be overridden with actual values or marked as unlocked.
+- Most individual vampiric Corruption thresholds. Known thresholds are included; skills with unconfirmed thresholds can be marked as unlocked.
 - Initial ranks available without a manual for some skills. Published panels were used for the first two ranks of Endless Effort, Omniblock, Stinging Blade, Vigour, Witchcraft Mastery and Second Skin I; four ranks of Sustained Focus; and three ranks of Bewitching Influence. Other manual-based perks may have unknown initial availability. These are published reference values that can be corrected for your save.
 - Zero training time for the first two ranks of the four basic Swordmastery perks was taken from published panels. Other missing time costs remain unknown.
-- Final Witchcraft Mastery rank: the current Codex table lists 1 segment, while an official prerelease screenshot shows 2. The current catalogue value is used with an explicit warning.
+- Final Witchcraft Mastery rank: the current Codex table lists 1 segment, while an official prerelease screenshot shows 2. The current catalogue value is used; the discrepancy is retained in the source metadata.
 - Font of Life and Mandrake Ward: catalogues disagree on numerical effects, so the summary describes them qualitatively. Their special unlock must be explicitly marked in My game mode.
 - Some numerical Ultimate parameters, bonuses per place of power or soul, bonus stacking formulas and durations of certain temporary effects.
 - Individual vendor prices, actual Health and charge costs of casting each Active Ability, exact base Cooldowns and equipment statistics.
 
-Personal overrides are stored separately from the catalogue and exported with the build.
+Costs use catalogue values only. The manual cost editor has been removed. Legacy overrides in older browser saves and JSON imports are ignored; learned ranks and other compatible build settings are retained. New exports omit overrides. Source URLs, per-skill references, warnings and animation attribution remain in the catalogue, animation metadata and this document; they are not displayed in the main interface.
 
 ## Visual references
 
@@ -87,7 +87,7 @@ The ability-icon import previously picked related-ability thumbnails or blank pl
 
 ### Animated ability previews
 
-All **27 abilities** include the gameplay GIF from their corresponding Fextralife page, starting with [Artery Strike](https://bloodofdawnwalker.wiki.fextralife.com/Artery_Strike). Each preview has a direct source link. Page HTML, original GIFs, original asset URLs and file hashes were saved locally on 8 September 2026. Perk illustrations retain their existing sources.
+All **27 abilities** include the gameplay GIF from their corresponding Fextralife page, starting with [Artery Strike](https://bloodofdawnwalker.wiki.fextralife.com/Artery_Strike). Each animation metadata entry retains its direct source link. Page HTML, original GIFs, original asset URLs and file hashes were saved locally on 8 September 2026. Perk illustrations retain their existing sources.
 
 The GIFs were converted to silent H.264 MP4 clips for compact offline playback, preserving the sequence and timing and adding at most one border pixel for even video dimensions. Original GIFs total 64.09 MiB; the converted videos total 7.89 MiB. The first frame is included as a static poster. Only the selected ability mounts a player; system **Reduce Motion** disables automatic playback. Native controls provide pause, seeking and full screen. These animations are visual demonstrations, not evidence of rank values, training costs or damage formulas.
 
