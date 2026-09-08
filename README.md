@@ -6,9 +6,9 @@ A fan-made skill planner for The Blood of Dawnwalker, with 90 skills, original g
 
 The interface, skill descriptions, tooltips and build summaries are in English.
 
-Search all skills by name with **Find a skill** (**Command-K / Ctrl-K**). Trees follow the game menu, with perk branches on the left, Ultimates below and two ability columns on the right. Hover or focus an icon for its name, or select it for full details. **Fit tree**, zoom, drag and swipe keep the diagram usable across screen sizes without stretching its connections. Training costs and rank controls stay visible at the bottom of the skill card.
+Search all skills by name with **Find a skill** (**Command-K / Ctrl-K**). Trees follow the game menu, with perk branches on the left, Ultimates below and two ability columns on the right. Hover or focus an icon for its full interactive card. **Left click** adds a rank; **right click** removes one. Prerequisite learning and dependent removal show all affected ranks and the cost change before confirmation. Cancel keeps the build unchanged. The tree uses the full workspace width with no permanent sidebar. **Fit tree**, zoom, drag and swipe keep the diagram usable across screen sizes without stretching its connections. Training costs and rank controls stay visible at the bottom of the skill card.
 
-All 27 abilities include a silent gameplay preview from Fextralife. Select an ability to watch it, then use the video controls to pause, seek or enter full screen. With **Reduce Motion** enabled, press Play to start. Clips are included for offline use and link to their source pages.
+All 27 abilities include a silent gameplay preview from Fextralife. Hover an ability to watch it, then use the video controls to pause, seek or enter full screen. With **Reduce Motion** enabled, press Play to start. Clips are included for offline use and link to their source pages.
 
 The wiki cross-check adds 22 acquisition routes, four numerical Ultimate effects, Nourishing Blood Corruption gates, and corrections for manual unlocks and direct blood rewards. Open **How to obtain · location spoilers** in a skill card for its route and source.
 

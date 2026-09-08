@@ -77,7 +77,7 @@ Personal overrides are stored separately from the catalogue and exported with th
 
 ## Visual references
 
-The three saved game-panel screenshots determine perk rows, branch junctions, Ultimate ordering and the two ability columns. Node centres and connection paths now share a fixed 1320 × 850 canvas and one uniform scale, preventing the previous independent horizontal/vertical stretching. Skill names appear on hover or keyboard focus, with full details in the selected-skill panel. Training controls remain fixed in that panel.
+The three saved game-panel screenshots determine perk rows, branch junctions, Ultimate ordering and the two ability columns. Node centres and connection paths now share a fixed 1320 × 850 canvas and one uniform scale, preventing the previous independent horizontal/vertical stretching. Full skill details appear in an interactive card on hover or keyboard focus; no permanent sidebar is reserved. Left click raises one rank and right click lowers one. Prerequisite learning, dependent removal and slot losses are previewed for confirmation before changing the build. Training controls remain fixed at the bottom of the card.
 
 - [Xbox Wire — Hands-on preview](https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/): official Witchcraft panel screenshot.
 - [Shacknews — Ability slots](https://www.shacknews.com/article/150542/how-to-unlock-more-ability-slots-the-blood-of-dawnwalker): Vampirism panel.
