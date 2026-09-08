@@ -37,3 +37,5 @@ Afacad is distributed under the [SIL Open Font License](Afacad-OFL.txt).
 [Sources, methodology and data limitations](SOURCES.md). Data snapshot: 8 September 2026. Research snapshots referenced in that document are retained locally by the author and are not included in this publication.
 
 Game icons, illustrations and animation footage belong to their respective rights holders. This is not an official product of Rebel Wolves or Bandai Namco.
+
+Game resource icons also appear inside skill descriptions and rank effects: the hourglass after time segments and the golden glyph after Activation Charges. Casting costs show a charge icon and, when Health is spent, the game’s health icon before the values. The original artwork is embedded for offline use.
