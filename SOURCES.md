@@ -287,3 +287,21 @@ Gold emphasis is applied to a bounded vocabulary of game terms without altering 
 ## Inline resource icons
 
 Skill descriptions and rank effects place the original hourglass after “time segment(s)” and the original golden charge glyph after “Activation Charge(s)”. In the casting Cost row, charge and health glyphs precede their values. The health glyph appears only for a nonzero casting Health cost. Combat seconds and ordinary healing text do not receive these icons. The charge and health artwork comes from the unmodified user-supplied Burning Blood screenshot, displayed through clipped SVG viewports and embedded for offline use; provenance and coordinates are retained in `research/inline-resource-icons`.
+
+
+## Swordmastery and Vampirism emphasis and card layout
+
+A second visual audit covers every supplied Swordmastery and Vampirism description and rank: **58 skills, 183 ranks, 241 text fields, 74 original screenshots**. `app/skill-emphasis.json` records the exact gold phrases separately for each description and rank. Ordinary words are not inferred from capitalization or another skill. This includes gold Dodging, Charge, Area, Restoration, Ultimate, Kill, Bosses, Explodes, Fight and Slows where shown, while Time in Blood Theft and Temporary in Hastened Corruption remain plain. Passive/slot notes and Mesmerise's boss restriction remain gray italic. Mandrake Ward has no supplied card and is not counted as verified. Witchcraft retains the preceding corrections. The catalogue, numerical values and progression rules are unchanged.
+
+Four additional user screenshots establish the card grouping: inset preview; diamonds overlapping the preview edge; phase, title and cooldown; description and italic note; casting Cost; a separately scrolling rank list; fixed training-cost and unlock footer. The planner shows the current selected rank followed by future ranks, omitting older learned rows. Aggregate perk effects remain in Build summary. The training strip displays the known training-segment cost within a 16-segment full day, not a predicted current day/night clock. Compel Soul's live cumulative usage total is not copied from the player's save.
+
+Original glyphs are displayed through clipped SVG viewports from four unmodified, embedded screenshots:
+
+| Glyph | Source card | Image dimensions | Viewport x, y, width, height |
+| --- | --- | --- | --- |
+| Empty Corruption mouth, also used behind a dynamic red threshold | Hastened Corruption | 680 × 582 | 155, 112, 31, 40 |
+| Blood-unlock skull | Shadowstorm | 683 × 701 | 22, 267, 36, 54 |
+| Yellow, orange and red tough-enemy skulls | Death from Above I | 675 × 721 | 70, 343, 89, 35 |
+| Critical Direction chevron | Perfect Riposte | 674 × 576 | 336, 118, 28, 21 |
+
+The empty mouth follows Corruption in the Hastened Corruption text, including before Level. Death from Above keeps all three colored skulls after Tough enemies at every rank; no numerical enemy-level differences are inferred. Perfect Riposte places the red chevron after Critical Direction. Numeric gates, blood unlocks and learned diamonds are distinct. Screenshot filenames, all gold annotations, byte hashes and validation results are retained in local `research/card-layout-and-emphasis`.
