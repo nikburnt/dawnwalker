@@ -22,7 +22,7 @@ The header pairs the official game wordmark with an image-generated Character Pl
 
 Skill cards show upcoming ranks directly, with current ability values retained above and direct book links at the bottom. Each upcoming rank lists its manual requirement with a book icon. A question mark marks an unconfirmed requirement.
 
-The three skill-tree tabs use the original in-game Swordmastery, Witchcraft and Vampirism emblems.
+The three skill-tree tabs use the original in-game Swordmastery, Witchcraft and Vampirism emblems. With a mouse, skill nodes highlight only under the pointer. Hover shows their cards; left/right clicks change ranks without leaving a node selected. Keyboard focus remains visible.
 
 Resource icons use the game glyphs from an official screenshot, bundled for offline use. Skill-card training costs use the same icons in place of unit abbreviations.
 
