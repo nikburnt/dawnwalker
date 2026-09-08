@@ -10,7 +10,7 @@ Search all skills by name with **Find a skill** (**Command-K / Ctrl-K**). Trees 
 
 All 27 abilities include a silent gameplay preview from Fextralife. Hover an ability to watch it, then use the video controls to pause, seek or enter full screen. With **Reduce Motion** enabled, press Play to start. Clips are included for offline use and link to their source pages.
 
-The wiki cross-check adds 22 acquisition routes, four numerical Ultimate effects, Nourishing Blood Corruption gates, and corrections for manual unlocks and direct blood rewards. Open **How to obtain · location spoilers** in a skill card for its route.
+The wiki cross-check adds 22 acquisition routes to the catalogue, four numerical Ultimate effects, Nourishing Blood Corruption gates, and corrections for manual unlocks and direct blood rewards. Acquisition guides are linked from **Manuals** where available.
 
 Select a skill and add ranks. Equip learned abilities in the available slots. Open the build summary for costs and effects. Planning mode allows future acquisition requirements; **My resources** checks your budgets and Corruption. Manuals are counted from catalogue starting ranks, and quests remain acquisition notes.
 
@@ -20,7 +20,7 @@ This repository contains the ready-to-use static site. All code, images and vide
 
 The header uses the official game wordmark. Build resources sit beside the learned count and zoom controls in compact icon–value–label rows. On narrow screens, labels hide and the icons and values remain. The sliders button opens resources and availability. Open **Manuals** for the selected build’s book list, required copies and links to locations, vendors and acquisition guides.
 
-Each rank lists its manual requirement with a book icon. A question mark marks an unconfirmed requirement.
+Skill cards show upcoming ranks directly, with current ability values retained above and direct book links at the bottom. Each upcoming rank lists its manual requirement with a book icon. A question mark marks an unconfirmed requirement.
 
 The three skill-tree tabs use the original in-game Swordmastery, Witchcraft and Vampirism emblems.
 

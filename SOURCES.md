@@ -69,7 +69,7 @@ Permanent modifiers and conditional bonuses remain separate. Precision depends o
 - Initial ranks available without a manual for some skills. Published panels were used for the first two ranks of Endless Effort, Omniblock, Stinging Blade, Vigour, Witchcraft Mastery and Second Skin I; four ranks of Sustained Focus; and three ranks of Bewitching Influence. Other manual-based perks may have unknown initial availability. These published reference values determine manual counts; the calculator does not track manuals already collected in a playthrough.
 - Zero training time for the first two ranks of the four basic Swordmastery perks was taken from published panels. Other missing time costs remain unknown.
 - Final Witchcraft Mastery rank: the current Codex table lists 1 segment, while an official prerelease screenshot shows 2. The current catalogue value is used; the discrepancy is retained in the source metadata.
-- Font of Life and Mandrake Ward: catalogues disagree on numerical effects, so the summary describes them qualitatively. Their acquisition requirements remain visible as read-only notes.
+- Font of Life and Mandrake Ward: catalogues disagree on numerical effects, so the summary describes them qualitatively. Their acquisition requirements remain in the catalogue.
 - Some numerical Ultimate parameters, bonuses per place of power or soul, bonus stacking formulas and durations of certain temporary effects.
 - Individual vendor prices, actual Health and charge costs of casting each Active Ability, exact base Cooldowns and equipment statistics.
 
@@ -93,7 +93,9 @@ Skill Points, training time and Corruption are presented as compact icon–value
 
 The dropdown's **Locations & vendors** URLs are copied from the actual manual links in the saved MetaBot skill pages; all 49 manual-bearing skills have an exact link. The mapping is kept in `app/manual-links.json`, with its source-page provenance and HTTP/title checks in local `research/header-manuals` records. All 49 pages returned HTTP 200 with the matching manual title on 8 September 2026. Known acquisition-guide links come from the existing per-skill acquisition metadata. The dropdown exposes these links intentionally; unrelated research references and animation attribution remain in documentation.
 
-### Manual requirements in rank rows
+### Skill-card content and manual requirements
+
+Skill cards display only ranks above the selected rank, directly in the scrollable description, with no acquisition accordion, rank accordion or introductory cost explanation. Current ability values remain visible when learned. A direct link to the skill’s manual appears at the bottom, using the same verified manual URL as the toolbar dropdown. Full acquisition notes remain in the catalogue; available guides are linked from the Manuals dropdown. Unknown per-rank book requirements retain their question mark and an explanatory hover label.
 
 Each training-cost row now shows one manual where the catalogue establishes that its rank exceeds the skill's starting availability. Ranks within that availability show no manual requirement. Unknown starting availability displays `?` beside the book in both rank rows and the next-rank cost, consistent with the upper-bound manual total.
 
