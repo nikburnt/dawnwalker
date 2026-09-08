@@ -37,11 +37,11 @@ The update adds information to 27 skills, including 22 acquisition notes. Every 
 | Tactical Mastery | Active Abilities cost 1 fewer charge, minimum 1. [Gamer Guides](https://www.gamerguides.com/the-blood-of-dawnwalker/guide/getting-started/character-development/best-swordmastery-perks-and-abilities). |
 | Swordmastery acquisition | Seven initial/upgrade routes; Dirty Trick rank I needs no manual. [PC Gamer](https://www.pcgamer.com/games/rpg/blood-of-dawnwalker-swordmastery-ability-manual-locations/). |
 | Witchcraft acquisition | Ten routes, including Anca's early unlocks. Burning Blood and Mercurial Fervour need no first manual; The guide describes a Life Lock quest unlock; the later user-supplied game card below instead shows a manual requirement at every rank. [PC Gamer](https://www.pcgamer.com/games/rpg/blood-of-dawnwalker-witchcraft-ability-manual-locations/). |
-| Vrakhir acquisition | Five routes. Scarlet Shield, Shadowstorm and Blood Surge rank I are direct blood rewards requiring no SP. The planner therefore counts no training time for receiving them; quest time is outside the training budget. Later ranks retain catalogue costs and Corruption requirements. [PC Gamer](https://www.pcgamer.com/games/rpg/blood-of-dawnwalker-vrakhir-blood-abilities/). |
+| Vrakhir acquisition | Five routes from [PC Gamer](https://www.pcgamer.com/games/rpg/blood-of-dawnwalker-vrakhir-blood-abilities/). The previous inference that three blood rewards waived the first SP cost is superseded by the user-supplied game cards below: all five skull unlocks show 1 SP and no training time. Quest time is outside the training budget. |
 
-The three blood rewards replace the generic first-rank 1 SP entries with zero; the source and reason are retained in their catalogue metadata. Starting availability does not establish free training for other skills, so their existing training costs were not changed. After the user-supplied game cards below, unconfirmed costs remain: **0 SP entries, 7 training-time entries and 73 Corruption entries**. The last count includes special unlocks whose numeric threshold is unknown. These remain uncertain in the calculator.
+The later user-supplied game cards take precedence over these guide-based inferences. All **274 SP costs and 274 training-time costs** are now established. Mandrake Ward is the only remaining unknown Corruption requirement. Five skull unlocks have no displayed numeric threshold and are modeled separately from unknown Corruption; acquiring them is a planned special requirement, followed by the observed 1 SP training cost.
 
-Exact numbers for Aether Cascade and Entwined Torment were not independently established in the wiki pass; they are now verified by the user-supplied game cards below. Lethal Crescendo remains unconfirmed. Some fan sites also list casting costs, but rank scaling and conflicting descriptions prevent their use as a reliable combat-cost formula. These values remain unconfirmed.
+Exact numbers for Aether Cascade, Entwined Torment and Lethal Crescendo were not independently established in the wiki pass; they are now verified by the user-supplied game cards below. Fourteen ability cards also establish displayed casting values. These observations do not establish a universal combat-cost or equipment-scaling formula.
 
 ## User-supplied Witchcraft game cards: 8 September 2026
 
@@ -102,6 +102,59 @@ The 34 initial screenshots and two supplemental captures cover all **29 Swordmas
 
 No Health cost is shown for these four abilities. Casting resources are displayed separately from learning costs, without applying an unverified perk-scaling formula. Adrenaline Rush, Swiftness and Walking Fortress work passively only while equipped in the Active Abilities panel; they retain their ability slots and angled frames. All Witchcraft/Vampirism records and image/video assets are unchanged by this Swordmastery update.
 
+## User-supplied Vampirism game cards: 8 September 2026
+
+Thirty-eight original screenshots cover **29 Vampirism skills / 87 ranks**, including all ten abilities. Piercing Shriek spans four scroll positions and Scarlet Shield spans three. All supplied cards show **Night only**. Mandrake Ward is absent and unchanged. Together with the earlier batches, 88 skills and 272 ranks now have direct user-supplied game-card evidence.
+
+- **Voracious Bite I** is shown learned and the user confirms it is learned by default. It joins the four existing starting abilities at zero SP, time and manuals, survives Clear and legacy build imports, and cannot be removed. It uses no common slot and appears in the Night ability summary automatically.
+- **Special skull unlocks:** Shadowstorm, Piercing Shriek, Blood Surge, Mesmerise and Scarlet Shield I explicitly cost **1 SP and zero training time**. Their skull represents a special acquisition requirement, distinct from a numbered Corruption gate. `bloodUnlock` records this distinction while the numeric field remains unset; these five entries are not counted as unknown thresholds. Earlier acquisition guides remain as route notes. The three prior zero-SP blood-reward entries are corrected to one SP. The planner does not track completed blood acquisitions.
+- **Damage values:** Voracious Bite shows 156 / 190 / 224 / 257 Damage and restores 60 / 80 / 100 / 120% of a Health Segment. Blood Surge deals 224 / 280 / 336 / 392 Area Damage in 3 / 4 / 5 / 6 metres, with 784 / 952 / 1,120 / 1,288 Damage to bosses. Death from Above deals 728 / 840 / 952 / 1,064 Damage to bosses and tough enemies. Shred IV deals 112 Damage when Bleed is reapplied. These replace decoded placeholders with observed card values, without inferring equipment scaling.
+- **Lethal Crescendo:** +20% Claw Damage for each enemy killed or Boss Health Segment depleted, stacking until combat ends. This is a conditional Night effect with no invented stack cap. Renounce Death confirms 10 seconds, and Sanguine Renewal confirms the Voracious Bite cooldown reset.
+- **Wild Blood and Crimson Feast:** animal/human blood buffs last **3 world-time segments**. The duration is shown in their effect conditions and is separate from training time or combat seconds. Higher ranks retain earlier distinct bonuses.
+- **Long descriptions:** the full reflection, duration and final-rank extension of Piercing Shriek, the block chances and healing of Scarlet Shield, and the highest-rank bonuses of Mesmerise and Death from Above are preserved. Crimson Rush, Scarlet Shield and Shred work passively only while equipped. Voracious Bite, Shapeshift and Death from Above use no common slot.
+- **Training:** Shapeshift costs 1 SP and no time at every rank. Death from Above IV confirms its irregular 2 SP / 1 segment cost. All other visible costs match the previous tables except the three corrected initial blood rewards. The seven previously unknown time entries are resolved; the default Voracious Bite I cost comes from user context rather than an unlearned price row.
+
+| Skill | Corruption by rank |
+|---|---|
+| Nourishing Blood | 0 / 3 / 8 |
+| Wild Blood; Crimson Feast | 2 / 5 / 10 |
+| Hastened Corruption | 1 / 4 / 6 |
+| Vrakhiri Might | 4 / 7 / 11 |
+| Lasting Blood | 5 / 10 |
+| Endless Ferocity | 6 / 12 |
+| Endless Hunger | 0 / 5 / 12 |
+| Closing Wounds | 3 / 6 |
+| Blood Theft | 4 / 8 / 11 |
+| Shadow Dweller | 0 / 11 |
+| Dimension Reach | 2 / 6 / 13 |
+| Razorsharp Claws | 0 / 4 / 9 / 12 |
+| Restless Claws | 1 / 4 / 9 |
+| Clawpierce | 2 / 7 / 13 |
+| Dancing Claws | 9 / 14 |
+| All three Ultimates | 15 |
+| Voracious Bite | starting / 3 / 8 / 14 |
+| Shadowstorm | skull / 8 / 11 / 14 |
+| Piercing Shriek | skull / 7 / 11 / 13 |
+| Blood Surge | skull / 10 / 12 / 14 |
+| Mesmerise | skull / 9 / 12 / 14 |
+| Death from Above | 3 / 7 / 10 / 13 |
+| Scarlet Shield | skull / 6 / 10 / 13 |
+| Crimson Rush | 3 / 7 / 11 / 14 |
+| Shred | 1 / 5 / 9 / 13 |
+| Shapeshift | 1 / 6 / 9 / 12 |
+
+Zero denotes the existing initial numeric availability confirmed by a hollow diamond; a skull is a separate special unlock, not a numeric zero or a spent resource. Numeric thresholds continue to be checked in My resources mode and summarized as the maximum required value. Skull rows display a skull marker instead of a fictitious Corruption value. Mandrake Ward's unresolved requirement retains its question mark.
+
+| Ability | Displayed Cooldown | Activation Charges | Health cost |
+|---|---:|---:|---:|
+| Voracious Bite | 30 s | 1 | none shown |
+| Shadowstorm | 90 s | 2 | 15% |
+| Piercing Shriek | 30 s | 1 | 20% |
+| Blood Surge | 30 s | 3 | 25% |
+| Mesmerise | 45 s | 2 | 30% |
+
+All original images, hashes, combined transcriptions, user confirmation and evidence limits are retained locally under `research/user-game-screenshots/2026-09-08/vampirism`. Pre-edit files, diffs, validation and publication records are under `vampirism-update`. The verified override file reproduces the catalogue offline. Swordmastery, Witchcraft, Mandrake Ward and all media assets are unchanged by this batch.
+
 ## Effect accumulation
 
 Values represent the state after the selected rank. A new rank replaces the previous value of the same statistic and retains other previously unlocked statistics. Examples from the saved tables:
@@ -124,13 +177,13 @@ Permanent modifiers and conditional bonuses remain separate. Precision depends o
 
 ## Values still requiring verification
 
-- Most individual vampiric Corruption thresholds. Known thresholds are included; unconfirmed thresholds remain unknown.
+- Mandrake Ward's Corruption requirement. Every supplied numeric Vampirism threshold is recorded; the five skull unlocks are modeled as separate special acquisition requirements.
 - Manual requirements are resolved for all manual-bearing skills by the game cards and player context above. The calculator counts the books required for the selected ranks from their initial availability; it does not track books already collected or read in a playthrough.
 - Zero training time for the first two ranks of the four basic Swordmastery perks was taken from published panels. Other missing time costs remain unknown.
 - Final Witchcraft Mastery rank: the user's release-game card confirms 1 segment, resolving the previous conflict with the official prerelease screenshot showing 2.
 - Font of Life and Mandrake Ward: catalogues disagree on numerical effects, so the summary describes them qualitatively. Their acquisition requirements remain in the catalogue.
-- Some numerical Ultimate parameters, bonuses per place of power or soul, bonus stacking formulas and durations of certain temporary effects.
-- Individual vendor prices, casting costs and cooldowns not covered by the nine observed active cards above, perk/equipment scaling, and equipment statistics.
+- Effects whose cards omit numerical values, formulas for stacking different effects, and equipment scaling. Per-soul and per-place rates are verified, but usage counts are not tracked.
+- Individual vendor prices, casting costs and cooldowns not covered by the fourteen observed active cards above, perk/equipment scaling, and equipment statistics.
 
 Costs use catalogue values only. The manual cost editor and per-skill unlock editor have been removed. Legacy cost overrides and unlock flags in older browser saves and JSON imports are ignored; learned ranks and other compatible build settings are retained. New exports omit both fields. Manuals are calculated beyond catalogue starting ranks. Quest rewards are planned requirements, and optional resource limits continue to check point/time budgets and known Corruption thresholds. Source URLs, per-skill references, warnings and animation attribution remain in the catalogue, animation metadata and this document; they are not displayed in the main interface.
 
@@ -188,7 +241,7 @@ This is a fan-made tool. Game icons and illustrations belong to their respective
 
 ### Build links and codes
 
-Sharing uses the versioned `DW1-` format: a fixed registry of 90 skill IDs, 3 bits per rank, ordered ability slots and resource settings. The 55-byte payload includes a CRC-16 checksum and is encoded as URL-safe Base64 without padding (78 characters including the prefix). Its field order is fixed in `app/build-code.ts`. Imports validate the checksum, rank limits, prerequisites, Ultimate restrictions, equipment and resource ranges before replacing a build. Legacy codes are checked against their original ranks and slots before Dirty Trick I and the three free starting Witchcraft ranks are added; the DW1 wire format is unchanged. Budgets may remain below planned costs, matching the resource editor. Original purchase order is not shared; the summary lists allocated ranks.
+Sharing uses the versioned `DW1-` format: a fixed registry of 90 skill IDs, 3 bits per rank, ordered ability slots and resource settings. The 55-byte payload includes a CRC-16 checksum and is encoded as URL-safe Base64 without padding (78 characters including the prefix). Its field order is fixed in `app/build-code.ts`. Imports validate the checksum, rank limits, prerequisites, Ultimate restrictions, equipment and resource ranges before replacing a build. Legacy codes are checked against their original ranks and slots before Dirty Trick I, Voracious Bite I and the three free starting Witchcraft ranks are added; the DW1 wire format is unchanged. Budgets may remain below planned costs, matching the resource editor. Original purchase order is not shared; the summary lists allocated ranks.
 
 The code lives in the link fragment and is decoded locally. Loading a link adds the previous saved build to Undo and consumes the fragment so later refreshes retain edits. Local browser storage remains compatible with earlier saved builds; the public sharing UI uses links and codes instead of JSON files. Tests cover every rank of all 90 skills, all slot positions, resource boundaries, an independently generated binary fixture and malformed codes. Browser interaction testing has not been performed.
 
