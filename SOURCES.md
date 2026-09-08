@@ -41,7 +41,20 @@ The update adds information to 27 skills, including 22 acquisition notes. Every 
 
 The three blood rewards replace the generic first-rank 1 SP entries with zero; the source and reason are retained in their catalogue metadata. Starting availability does not establish free training for other skills, so their existing training costs were not changed. Unconfirmed costs remain: **8 SP entries, 19 training-time entries and 73 Corruption entries**. The last count includes special unlocks whose numeric threshold is unknown. These remain uncertain in the calculator.
 
-Exact numbers for Aether Cascade, Entwined Torment and Lethal Crescendo were not independently established in this pass. Some fan sites also list casting costs, but rank scaling and conflicting descriptions prevent their use as a reliable combat-cost formula. These values remain unconfirmed.
+Exact numbers for Aether Cascade and Entwined Torment were not independently established in the wiki pass; they are now verified by the user-supplied game cards below. Lethal Crescendo remains unconfirmed. Some fan sites also list casting costs, but rank scaling and conflicting descriptions prevent their use as a reliable combat-cost formula. These values remain unconfirmed.
+
+## User-supplied Witchcraft game cards: 8 September 2026
+
+Twenty original screenshots cover **20 Witchcraft perks / 49 ranks**. Their descriptions, effects, rank counts, SP costs, training time and leading availability icons were transcribed and compared with the catalogue. All SP and time costs matched, including **1 segment for Witchcraft Mastery IV**. The user confirmed that no Witchcraft manuals had been read before these captures.
+
+- **Anytime:** Forager, Bewitching Influence, Herbal Remedies I, Medicus I, Amalgam, Herbal Remedies II and Medicus II. Their effects now remain in the Night summary. The other 13 captured perks are **Day only**; card labels and effect filtering use the same per-skill rule.
+- **Manual-free starting ranks:** Forager I, Unnatural Resilience I, Forbidden Sigils I, Witchcraft Mastery I–II and Bewitching Influence I–III. The first Forbidden Sigils row has a prerequisite lock; its later rows have book icons. The remaining 12 captured regular perks require a manual for every rank. Ultimate locks remain separate from manuals. This establishes book requirements for all 17 captured regular perks and removes 39 previously unknown per-rank requirements.
+- **Witchcraft Mastery:** the card shows 110 additional Damage, with a 50% chance from II and 100% at IV. III retains the prior 50% effect. The displayed 110 is recorded as observed in this character's card; its possible scaling with other statistics has not been established and no universal damage formula is inferred.
+- **Entwined Torment:** the first Witchcraft Ability used in combat targets 2 enemies.
+- **Aether Cascade:** +20% Witchcraft Ability Damage for each Witchcraft Ability used, up to +100%, resetting after combat. The summary retains this as a conditional effect rather than permanent Damage.
+- **Runic Bulwark:** the card confirms the existing 15% random-Hex chance on a Perfect Block. Its rank row now preserves the game's “Unlocks Ultimate” wording.
+
+The unmodified PNGs, hashes, transcriptions, original comparison snapshots and the player's manual baseline are retained under local `research/user-game-screenshots/2026-09-08`. Catalogue additions are reproducible from `research/user-game-screenshots/verified-skills.json` and take precedence over web tables only for the observed fields. Each affected skill carries its screenshot reference and verified fields as metadata. Screenshots and local research records are not published. **Font of Life and all Witchcraft abilities are outside these two screenshot batches.**
 
 ## Effect accumulation
 
