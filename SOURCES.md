@@ -77,7 +77,7 @@ Personal overrides are stored separately from the catalogue and exported with th
 
 ## Visual references
 
-The layout follows game panels: three trees at the top, the perk graph, separate ability columns, diamond rank markers and a selected-skill panel on the right.
+The visual references inform the three tree tabs, perk graph, original icons, diamond rank markers and selected-skill panel. The responsive planner places abilities in a separate grid below the perk graph and keeps training controls fixed in the skill card.
 
 - [Xbox Wire — Hands-on preview](https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/): official Witchcraft panel screenshot.
 - [Shacknews — Ability slots](https://www.shacknews.com/article/150542/how-to-unlock-more-ability-slots-the-blood-of-dawnwalker): Vampirism panel.
