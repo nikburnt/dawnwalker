@@ -1,2 +1,15 @@
-# dawnwalker
-The Blood of Dawnwalker skill planner: ranks, dependencies, effects and build costs.
+# Dawnwalker Skill Planner
+
+**[Open the calculator](https://nikburnt.github.io/dawnwalker/)**
+
+A fan-made skill planner for The Blood of Dawnwalker, with 90 skills, original game icons, rank dependencies, ability slots, and skill point, manual and training-time costs. Daytime, nighttime and conditional effects are kept separate.
+
+Select a skill and add ranks. Equip learned abilities in the available slots. Open the build summary for costs and effects. Planning mode allows future unlocks; inventory mode checks your declared resources and unlocked ranks.
+
+Builds stay in your browser. Use JSON export and import to move them between devices. Unconfirmed game values are marked with a question mark and can be overridden using your own game data.
+
+This repository contains the ready-to-use static site. All code and images are embedded in `index.html`; you can also download it and use it offline without a server. GitHub Pages publishes the root of `main`. Replace `index.html` with a new standalone build to update the website.
+
+[Sources, methodology and data limitations (Russian)](SOURCES.md). Data snapshot: 8 September 2026. Research snapshots referenced in that document are retained locally by the author and are not included in this publication.
+
+Game icons and illustrations belong to their respective rights holders. This is not an official product of Rebel Wolves or Bandai Namco.
