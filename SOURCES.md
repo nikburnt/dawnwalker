@@ -107,7 +107,7 @@ No Health cost is shown for these four abilities. Casting resources are displaye
 Thirty-eight original screenshots cover **29 Vampirism skills / 87 ranks**, including all ten abilities. Piercing Shriek spans four scroll positions and Scarlet Shield spans three. All supplied cards show **Night only**. Mandrake Ward is absent and unchanged. Together with the earlier batches, 88 skills and 272 ranks now have direct user-supplied game-card evidence.
 
 - **Voracious Bite I** is shown learned and the user confirms it is learned by default. It joins the four existing starting abilities at zero SP, time and manuals, survives Clear and legacy build imports, and cannot be removed. It uses no common slot and appears in the Night ability summary automatically.
-- **Special skull unlocks:** Shadowstorm, Piercing Shriek, Blood Surge, Mesmerise and Scarlet Shield I explicitly cost **1 SP and zero training time**. Their skull represents a special acquisition requirement, distinct from a numbered Corruption gate. `bloodUnlock` records this distinction while the numeric field remains unset; these five entries are not counted as unknown thresholds. Earlier acquisition guides remain as route notes. The three prior zero-SP blood-reward entries are corrected to one SP. The planner does not track completed blood acquisitions.
+- **Special skull unlocks:** Shadowstorm, Piercing Shriek, Blood Surge, Mesmerise and Scarlet Shield I explicitly cost **1 SP and zero training time**. The user confirms that their skull requires drinking Vrakhir blood, distinct from a numbered Corruption gate. `bloodUnlock` records this distinction while the numeric field remains unset; these five entries are not counted as unknown thresholds. Earlier acquisition guides remain as route notes. The three prior zero-SP blood-reward entries are corrected to one SP. The planner does not track completed blood acquisitions.
 - **Damage values:** Voracious Bite shows 156 / 190 / 224 / 257 Damage and restores 60 / 80 / 100 / 120% of a Health Segment. Blood Surge deals 224 / 280 / 336 / 392 Area Damage in 3 / 4 / 5 / 6 metres, with 784 / 952 / 1,120 / 1,288 Damage to bosses. Death from Above deals 728 / 840 / 952 / 1,064 Damage to bosses and tough enemies. Shred IV deals 112 Damage when Bleed is reapplied. These replace decoded placeholders with observed card values, without inferring equipment scaling.
 - **Lethal Crescendo:** +20% Claw Damage for each enemy killed or Boss Health Segment depleted, stacking until combat ends. This is a conditional Night effect with no invented stack cap. Renounce Death confirms 10 seconds, and Sanguine Renewal confirms the Voracious Bite cooldown reset.
 - **Wild Blood and Crimson Feast:** animal/human blood buffs last **3 world-time segments**. The duration is shown in their effect conditions and is separate from training time or combat seconds. Higher ranks retain earlier distinct bonuses.
@@ -217,7 +217,24 @@ Fate's Favour's initial manual-free ranks were absent from the saved Codex, Game
 
 Unlearned rank rows follow the supplied game-card layout. Their left marker is a book when a manual is required, a hollow diamond when no manual or other requirement blocks that rank, or a lock for other unmet requirements. Unknown manual requirements retain a question mark beside the book. SP and any nonzero or unknown training-time cost appear in parentheses at the end of the effect text, with each parenthesized value kept together while wrapping. The separate cost footer and visible rank-number boxes have been removed from these rows; rank numbers remain available to screen readers. The separate touch/dialog training controls retain their existing cost summary.
 
-Perk nodes use circular outer and inner frames. Ability nodes retain the existing angled shape, including abilities that work passively while equipped. Hover, learned, equipped and locked colors and interactions remain unchanged. The source icons and screenshots are unchanged; only their frames and card layout are updated.
+Perks and active abilities use circular bodies with four cardinal spikes. Only the eight passive abilities in the right columns use plain circular frames. Hover adds a separate golden circular halo, with the dark interior and original artwork retained. The three original frame references are retained in `research/node-frames-and-blood-unlocks`, alongside their hashes. Node size, placement, icons, rank changes and equip behavior are unchanged.
+
+
+### Vrakhir blood clarification
+
+The user identifies the first-rank skill skull as a requirement to drink a vampire's blood. It appears on the five unlearned ability nodes and their first-rank rows. Their cards have a collapsed **Drink Vrakhir blood** section with acquisition information and a source link. Planning still permits these future acquisitions; completed blood acquisitions are not tracked.
+
+| Ability | Blood or quest route | Evidence |
+|---|---|---|
+| Scarlet Shield | Ambrus, directly after the fight or by phial | [PC Gamer](https://www.pcgamer.com/games/rpg/blood-of-dawnwalker-vrakhir-blood-abilities/) |
+| Shadowstorm | Bakir, directly after the fight or by phial | [PC Gamer](https://www.pcgamer.com/games/rpg/blood-of-dawnwalker-vrakhir-blood-abilities/) |
+| Blood Surge | Xanthe, directly after the fight or by phial | [PC Gamer](https://www.pcgamer.com/games/rpg/blood-of-dawnwalker-vrakhir-blood-abilities/) |
+| Piercing Shriek | Phial of Brencis's Blood; alternatively Our Rotten Roots, involving Isbrand | [Item description](https://dawnwalkerdb.com/items/phial-of-brenciss-blood), [quest walkthrough](https://www.powerpyx.com/blood-of-dawnwalker-our-rotten-roots-walkthrough/) |
+| Mesmerise | Lacra's blood during The Night of Horrors, or her blood phial | [Quest walkthrough](https://www.powerpyx.com/blood-of-dawnwalker-the-night-of-horrors-walkthrough/), [item description](https://dawnwalkerdb.com/items/phial-of-lacras-blood) |
+
+The older PC Gamer wording attributed Mesmerise to eating the mandrake. PowerPyx distinguishes the two actions: Lacra's blood grants Mesmerise; the mandrake grants Mandrake Ward. Only Mesmerise's acquisition wording is corrected here; Mandrake Ward's unobserved rank data remain unchanged. The observed first-rank training prices remain 1 SP and zero time. No free direct-blood acquisition behavior has been verified in this session.
+
+Colored enemy skulls indicate level ranges relative to Coen; red means above his level range according to [PowerPyx](https://www.powerpyx.com/the-blood-of-dawnwalker-trophy-guide-roadmap/). Exact color-to-level differences remain unconfirmed. Enemy indicators are not used as skill costs or Corruption thresholds.
 
 ### Resource icons
 
