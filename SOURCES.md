@@ -254,6 +254,8 @@ The Swordmastery, Witchcraft and Vampirism tabs use lossless PNG crops of the ne
 
 Original screenshots, crop coordinates and source/output hashes are retained in `research/tree-tab-icons-user-crops`. These replace the earlier 1920 × 1080 web screenshot regions documented in `research/tree-tab-icons/provenance.json`. The old Swordmastery screenshot, no longer needed by the interface, is retained with the research files. The original Xbox Wire screenshot remains bundled for the Skill Points, Manual and Time glyphs.
 
+The Witchcraft ability columns follow the user's corrected order, read left to right and top to bottom: Compel Soul, Astral Communion, Burning Blood, Life Lock, Soul Reaping, Ravenous Flock, Soul Stigma, Unholy Vitality, Cycle of Ruin, Mercurial Fervour. The 8 September correction moves Life Lock to fourth, Soul Reaping to fifth and Unholy Vitality to eighth; skill data and behavior are unchanged.
+
 ### Animated ability previews
 
 All **27 abilities** include the gameplay GIF from their corresponding Fextralife page, starting with [Artery Strike](https://bloodofdawnwalker.wiki.fextralife.com/Artery_Strike). Each animation metadata entry retains its direct source link. Page HTML, original GIFs, original asset URLs and file hashes were saved locally on 8 September 2026. Perk illustrations retain their existing sources.
