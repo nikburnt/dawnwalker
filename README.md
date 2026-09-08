@@ -20,7 +20,7 @@ Dirty Trick I, Compel Soul I, Astral Communion I, Burning Blood I and Voracious 
 
 Builds stay in your browser. **Export** provides a shareable link and a 78-character code; **Import** accepts either. They preserve ranks, equipped slot order and resources. Shared links load automatically, and **Undo** restores the previous build. Damaged codes do not change it. Costs use the catalogue; unconfirmed values are marked with a question mark. Older builds still load, but legacy personal cost overrides and manual unlock flags are ignored. Sources and media attribution are retained in the project documentation and metadata.
 
-This repository contains the ready-to-use static site. All code, images and videos are embedded in `index.html`; you can also download it and use it offline without a server. GitHub Pages publishes the root of `main`. Replace `index.html` with a new standalone build to update the website.
+This repository contains the ready-to-use static site. All code, fonts, images and videos are embedded in `index.html`; you can also download it and use it offline without a server. GitHub Pages publishes the root of `main`. Replace `index.html` with a new standalone build to update the website.
 
 The header pairs the official game wordmark with an image-generated Character Planner wordmark matching its gold lettering and texture. Build resources sit beside the learned count and zoom controls in compact icon–value–label rows. On narrow screens, labels hide and the icons and values remain. The sliders button opens resources and availability. Open **Manuals** for the selected build’s book list, required copies and links to locations, vendors and acquisition guides.
 
@@ -29,6 +29,10 @@ Skill cards show upcoming ranks directly, with current ability values retained a
 The three skill-tree tabs use exact 84 × 84 PNG crops of the neutral Swordmastery, Witchcraft and Vampirism emblems from the user-supplied 4K screenshots. With a mouse, skill nodes highlight only under the pointer. Hover shows their cards; left/right clicks change ranks without leaving a node selected. Keyboard focus remains visible.
 
 Resource icons use the game glyphs from an official screenshot, bundled for offline use. Skill-card training costs use the same icons in place of unit abbreviations.
+
+Skill cards use the Afacad typeface with regular body text, semibold gold game terms and gray italic passive/slot notes. All perk titles are gold; ability titles are blue-gray for Swordmastery, purple for Witchcraft and red for Vampirism. Names, phases and tree tabs use capitals. Descriptions and rank text are 19 px with 1.45 line spacing; titles are 26 px, reduced to 24 px on narrow screens. Unavailable rank text dims while game terms retain their gold emphasis. Full catalogue descriptions appear above the rank rows, with selected-rank effects retained. Both font styles and the SIL Open Font License are embedded in the standalone file.
+
+Afacad is distributed under the [SIL Open Font License](Afacad-OFL.txt).
 
 [Sources, methodology and data limitations](SOURCES.md). Data snapshot: 8 September 2026. Research snapshots referenced in that document are retained locally by the author and are not included in this publication.
 
