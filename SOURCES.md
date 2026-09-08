@@ -1,65 +1,65 @@
-# Источники и границы данных
+# Sources and data limitations
 
-Срез: **08.09.2026**. Полученные страницы и структурированные данные сохранены в `research/`. Во время работы приложения сетевые запросы к каталогам не выполняются.
+Data snapshot: **8 September 2026**. Retrieved pages and structured source snapshots are retained locally in `research/`; they are not included in the published site repository. The planner makes no catalogue requests while running.
 
-## Правила игры
+## Game rules
 
-- [Bandai Namco — Community Bulletin Board #11: Skills & Power](https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-11-skills-power): три ветки, общие очки навыков, обучение за время, руководства для человеческих навыков и вампирическая порча. Официальная публикация задаёт правила, но не содержит полную релизную таблицу каждого ранга.
-- [Официальная страница The Blood of Dawnwalker](https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker): контекст игры и официальные материалы.
-- [PowerPyx — Trophy Guide & Roadmap](https://www.powerpyx.com/the-blood-of-dawnwalker-trophy-guide-roadmap/): человеческая высшая сила требует 35 очков в обычных **перках** соответствующей ветки и ещё 4 очка на покупку; очки активных способностей не заменяют это условие. Вампирические высшие силы требуют порчу 15. В одной ветке выбирается одна высшая сила.
-- [PowerPyx — All Skill Manual Locations](https://www.powerpyx.com/blood-of-dawnwalker-all-skill-manual-locations/): руководства и повторные экземпляры. Публикация не устанавливает полный начальный доступ для каждого ранга, поэтому неопределённое число нужных книг показано как верхняя граница.
-- [KeenGamer — How to Get Ability Slots](https://www.keengamer.com/articles/guides/how-to-get-ability-slots-in-the-blood-of-dawnwalker/): перки Master Fencer, Forbidden Sigils, Vrakhiri Might; итоговые 2/3/4 слота, цены 1/1/2 SP; известные пороги Vrakhiri Might — 4/7/11.
-- [PC Gamer — The Blood of Dawnwalker review](https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-review/): 16 сегментов в полных сутках. Пересчёт 30 суток → 480 сегментов используется для справки, а не как принудительный бюджет обучения.
+- [Bandai Namco — Community Bulletin Board #11: Skills & Power](https://en.bandainamcoent.eu/dawnwalker/news/community-bulletin-board-11-skills-power): three skill trees, shared skill points, training time, manuals for human skills and vampiric Corruption. This official article establishes the rules but does not provide a complete release-version table for every rank.
+- [Official The Blood of Dawnwalker page](https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker): game context and official materials.
+- [PowerPyx — Trophy Guide & Roadmap](https://www.powerpyx.com/the-blood-of-dawnwalker-trophy-guide-roadmap/): human Ultimates require 35 points in regular **perks** in the corresponding tree, plus 4 points to learn the Ultimate. Active Ability points do not meet this requirement. Vampiric Ultimates require Corruption 15. Only one Ultimate can be selected per tree.
+- [PowerPyx — All Skill Manual Locations](https://www.powerpyx.com/blood-of-dawnwalker-all-skill-manual-locations/): manuals and additional copies. The guide does not establish initial availability for every rank, so uncertain manual requirements are shown as an upper bound.
+- [KeenGamer — How to Get Ability Slots](https://www.keengamer.com/articles/guides/how-to-get-ability-slots-in-the-blood-of-dawnwalker/): Master Fencer, Forbidden Sigils and Vrakhiri Might; 2/3/4 total slots at costs of 1/1/2 SP. Known Vrakhiri Might Corruption thresholds are 4/7/11.
+- [PC Gamer — The Blood of Dawnwalker review](https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-review/): 16 segments per full day. The conversion of 30 days to 480 segments is a reference, not a mandatory training budget.
 
-## Таблицы навыков
+## Skill tables
 
-- [Dawnwalker Codex — Skills](https://dawnwalkercodex.com/skills): основной источник индивидуальных цен SP/времени, числа рангов и декодированных описаний. Сохранено 88 страниц с данными рангов; отдельные пустые поля сохранены как неизвестные. Числовой `null` не заменяется нулём.
-- [GamesDB — Dawnwalker Skills](https://gamesdb.gg/dawnwalker/skills): дополнительные описания, связи и игровые иллюстрации. В нескольких таблицах декодирование ошибочно накапливает абсолютные значения; они не используются как готовые суммарные характеристики.
-- [MetaBot — Build Planner](https://metabot.gg/en/dawnwalker/build-planner): исходный калькулятор пользователя, названия, связи, признаки высших сил и ссылки на руководства. Его цены «1 очко за всё» и искусственные уровневые пороги не перенесены.
-- [MetaBot — Skills](https://metabot.gg/en/dawnwalker/skills): оригинальные игровые иконки отдельных навыков; адрес каждого скачанного ресурса сохранён в `research/icon-sources.json`.
+- [Dawnwalker Codex — Skills](https://dawnwalkercodex.com/skills): primary source for individual SP and time costs, rank counts and decoded descriptions. Data from 88 individual skill pages was saved. Missing numerical costs remain unknown; `null` is never silently treated as zero.
+- [GamesDB — Dawnwalker Skills](https://gamesdb.gg/dawnwalker/skills): additional descriptions, dependencies and game illustrations. Several decoded tables incorrectly accumulate absolute values, so those values are not used as ready-made character totals.
+- [MetaBot — Build Planner](https://metabot.gg/en/dawnwalker/build-planner): the original calculator, names, dependencies, Ultimate flags and manual links. Its uniform one-point costs and artificial character-level gates were not carried over.
+- [MetaBot — Skills](https://metabot.gg/en/dawnwalker/skills): original game icons for individual skills. Retrieved image addresses are retained in the local research records.
 
-Нормализованный каталог содержит **90 навыков / 274 ранга**: 63 перка и 27 способностей. Цена в очках подтверждена в сохранённых таблицах для 266 рангов. Astral Communion и Compel Soul добавлены как особые способности без общего слота, однако их стоимость и правила прогрессии остаются неизвестными. Числа их бонусов в GamesDB могут быть результатом неверного накопления; в числовые итоги они не включены.
+The normalized catalogue contains **90 skills / 274 ranks**: 63 perks and 27 abilities. The saved tables provide SP costs for 266 ranks. Astral Communion and Compel Soul are included as abilities without a common slot, but their costs and progression remain unconfirmed. GamesDB may incorrectly accumulate their bonuses; those numbers are excluded from numerical totals.
 
-У некоторых способностей описание в Codex пустое. Их оригинальный текст дополнен из GamesDB с предупреждением в карточке. К таким значениям следует относиться как к данным каталога, требующим сверки с игрой, а не как к независимо подтверждённой формуле урона.
+Some Codex ability descriptions are empty. Their original text is supplemented from GamesDB with a warning in the skill card. These values should be checked against the game; they are not independently verified damage formulas.
 
-## Как исправлено накопление эффектов
+## Effect accumulation
 
-Числовые значения описывают состояние после выбранного ранга. Если новый ранг меняет только другой показатель, предыдущий сохраняется. Примеры из сохранённых таблиц:
+Values represent the state after the selected rank. A new rank replaces the previous value of the same statistic and retains other previously unlocked statistics. Examples from the saved tables:
 
-| Навык | Правило |
+| Skill | Rule |
 |---|---|
-| Endless Effort | Максимум выносливости +25/50/75/100%; ранги не суммируются |
-| Fate’s Favour | IV сохраняет 18% шанса из III и добавляет 25% критического урона |
-| Perfect Block | IV сохраняет +60% восстановления выносливости из III и даёт +100% восстановления заряда |
-| Pack Mule | Допустимый вес +30/+60/+100, без повторного сложения |
-| Sustained Focus | Предел зарядов 2/2/3/4; со II — один полный заряд в начале боя |
-| Forbidden Sigils / Master Fencer / Vrakhiri Might | Всего 2/3/4 слота |
-| Lasting Malediction | IV сохраняет +40% длительности и добавляет условное продление |
-| Renewed Focus | III сохраняет +30% пассивного восстановления и добавляет +50% восстановления от атак |
-| Unholy Fervour | Шанс возврата заряда 20/40%, не 60% |
-| Bewitching Influence | Сохраняются скидка 15%, надбавка продажи 15% и затем особые предложения |
-| Growing Momentum | +4% урона за атаку до +20%; на II добавляется −8% выносливости за атаку до −50% |
+| Endless Effort | Maximum Stamina +25/50/75/100%; ranks do not add together |
+| Fate's Favour | IV retains the 18% Critical Hit chance from III and adds 25% Weapon Critical Damage |
+| Perfect Block | IV retains +60% Stamina Restoration from III and grants +100% Activation Charge Restoration |
+| Pack Mule | Carry Weight +30/+60/+100, without repeated addition |
+| Sustained Focus | Charge capacity 2/2/3/4; one full charge at combat start from II onward |
+| Forbidden Sigils / Master Fencer / Vrakhiri Might | 2/3/4 total slots |
+| Lasting Malediction | IV retains +40% Duration and adds a conditional extension |
+| Renewed Focus | III retains +30% passive Restoration and adds +50% Restoration from Attacks |
+| Unholy Fervour | Charge refund chance 20/40%, not 60% |
+| Bewitching Influence | Retains the 15% buying discount, 15% selling bonus and then special offers |
+| Growing Momentum | +4% Damage per Attack up to +20%; II adds -8% Stamina cost per Attack up to -50% |
 
-Постоянные модификаторы и условные усиления не объединяются. В частности, Precision зависит от смены направления атак, Counterattack — от идеального блока, Crimson Feast — от человеческой крови, Wild Blood — от крови животного, Unnatural Resilience — от действующей способности колдовства. Совместное сложение разных источников, сопротивления, экипировка и итоговый урон конкретного удара не моделируются без подтверждённой формулы.
+Permanent modifiers and conditional bonuses remain separate. Precision depends on changing Attack directions, Counterattack on a Perfect Block, Crimson Feast on Human Blood, Wild Blood on Animal Blood and Unnatural Resilience on an active Witchcraft Ability. Cross-source stacking, resistances, equipment and final damage per hit are not modeled without a confirmed formula.
 
-## Что ещё требует сверки
+## Values still requiring verification
 
-- Большинство индивидуальных порогов вампирической порчи. Известные пороги внесены; прочие можно заменить фактическими значениями или отметить ранг открытым.
-- Начальное число рангов без руководства для части навыков. По опубликованным панелям приняты: первые два ранга Endless Effort, Omniblock, Stinging Blade, Vigour, Witchcraft Mastery и Second Skin I; четыре Sustained Focus; три Bewitching Influence. Для других перков с руководствами доступ может быть неизвестным. Это опубликованный ориентир, который можно уточнить по своему сохранению.
-- Нулевое время первых двух рангов четырёх базовых перков фехтования внесено по опубликованным панелям. Остальные отсутствующие цены времени остаются неизвестными.
-- Последний Witchcraft Mastery: 1 сегмент в текущей таблице Codex, 2 в официальном дорелизном изображении. Использовано значение текущего каталога с явным предупреждением.
-- Font of Life и Mandrake Ward: каталоги расходятся в числовом эффекте. В итогах они представлены качественно. В режиме «Моя игра» особое открытие нужно отметить вручную.
-- Часть числовых параметров высших сил, бонусы за места силы/души, формула сочетания усилений и длительность некоторых временных эффектов.
-- Цены книг у конкретного торговца, реальные расходы здоровья/зарядов при применении каждой активной способности, точные перезарядки и характеристики экипировки.
+- Most individual vampiric Corruption thresholds. Known thresholds are included; others can be overridden with actual values or marked as unlocked.
+- Initial ranks available without a manual for some skills. Published panels were used for the first two ranks of Endless Effort, Omniblock, Stinging Blade, Vigour, Witchcraft Mastery and Second Skin I; four ranks of Sustained Focus; and three ranks of Bewitching Influence. Other manual-based perks may have unknown initial availability. These are published reference values that can be corrected for your save.
+- Zero training time for the first two ranks of the four basic Swordmastery perks was taken from published panels. Other missing time costs remain unknown.
+- Final Witchcraft Mastery rank: the current Codex table lists 1 segment, while an official prerelease screenshot shows 2. The current catalogue value is used with an explicit warning.
+- Font of Life and Mandrake Ward: catalogues disagree on numerical effects, so the summary describes them qualitatively. Their special unlock must be explicitly marked in My game mode.
+- Some numerical Ultimate parameters, bonuses per place of power or soul, bonus stacking formulas and durations of certain temporary effects.
+- Individual vendor prices, actual Health and charge costs of casting each Active Ability, exact base Cooldowns and equipment statistics.
 
-Личные уточнения хранятся отдельно от исходного каталога и экспортируются вместе с билдом.
+Personal overrides are stored separately from the catalogue and exported with the build.
 
-## Визуальные материалы
+## Visual references
 
-Композиция ориентируется на игровые панели: три ветки сверху, граф перков, отдельные колонки способностей, ранги в виде ромбов и карточка выбранного навыка справа.
+The layout follows game panels: three trees at the top, the perk graph, separate ability columns, diamond rank markers and a selected-skill panel on the right.
 
-- [Xbox Wire — Hands-on preview](https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/): официальный снимок панели Witchcraft.
-- [Shacknews — Ability slots](https://www.shacknews.com/article/150542/how-to-unlock-more-ability-slots-the-blood-of-dawnwalker): панель Vampirism.
-- [Hack the Minotaur — Skill trees guide](https://hacktheminotaur.com/blood-of-dawnwalker/blood-of-dawnwalker-skill-trees-complete-guide/): панель Swordmastery.
+- [Xbox Wire — Hands-on preview](https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview/): official Witchcraft panel screenshot.
+- [Shacknews — Ability slots](https://www.shacknews.com/article/150542/how-to-unlock-more-ability-slots-the-blood-of-dawnwalker): Vampirism panel.
+- [Hack the Minotaur — Skill trees guide](https://hacktheminotaur.com/blood-of-dawnwalker/blood-of-dawnwalker-skill-trees-complete-guide/): Swordmastery panel.
 
-Это локальный фанатский инструмент. Иконки и игровые изображения принадлежат их правообладателям; открытая лицензия на них не заявляется. Официальной связи или одобрения со стороны Rebel Wolves / Bandai Namco нет.
+This is a fan-made tool. Game icons and illustrations belong to their respective rights holders; no open licence is claimed. The planner is not affiliated with or endorsed by Rebel Wolves or Bandai Namco.
