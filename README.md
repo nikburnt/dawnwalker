@@ -10,7 +10,7 @@ Search all skills by name with **Find a skill** (**Command-K / Ctrl-K**). Trees 
 
 All 27 abilities include a silent gameplay preview from Fextralife. Hover an ability to watch it, then use the video controls to pause, seek or enter full screen. With **Reduce Motion** enabled, press Play to start. Clips are included for offline use and link to their source pages.
 
-User-supplied game cards cover 20 Witchcraft perks and all 10 abilities. The update confirms starting/manual ranks, keeps seven Anytime perks active at night, and supplies observed numerical effects, cooldowns and casting costs. Astral Communion I remains missing its per-place bonus value because that row is outside the screenshot. Font of Life is unchanged.
+User-supplied game cards cover 20 Witchcraft perks and all 10 abilities. The update confirms starting/manual ranks, keeps seven Anytime perks active at night, and supplies observed numerical effects, cooldowns and casting costs. The additional first-rank screenshot confirms Astral Communion I at +0.4% Damage per place of power. Font of Life is unchanged.
 
 The wiki cross-check adds 22 acquisition routes to the catalogue, four numerical Ultimate effects, Nourishing Blood Corruption gates, and corrections for manual unlocks and direct blood rewards. Acquisition guides are linked from **Manuals** where available.
 
@@ -22,7 +22,7 @@ This repository contains the ready-to-use static site. All code, images and vide
 
 The header pairs the official game wordmark with an image-generated Character Planner wordmark matching its gold lettering and texture. Build resources sit beside the learned count and zoom controls in compact icon–value–label rows. On narrow screens, labels hide and the icons and values remain. The sliders button opens resources and availability. Open **Manuals** for the selected build’s book list, required copies and links to locations, vendors and acquisition guides.
 
-Skill cards show upcoming ranks directly, with current ability values retained above and direct book links at the bottom. Each upcoming rank lists its manual requirement with a book icon. A question mark marks an unconfirmed requirement.
+Skill cards show upcoming ranks directly, with current ability values retained above and direct book links at the bottom. Upcoming ranks follow the game layout: a book, hollow diamond or lock at the left, with SP and training-time costs in parentheses at the end of the effect. A question mark beside a book marks an unconfirmed manual requirement. Perk frames are circular; Ability frames keep their existing angled shape.
 
 The three skill-tree tabs use the original in-game Swordmastery, Witchcraft and Vampirism emblems. With a mouse, skill nodes highlight only under the pointer. Hover shows their cards; left/right clicks change ranks without leaving a node selected. Keyboard focus remains visible.
 

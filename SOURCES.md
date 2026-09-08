@@ -18,7 +18,7 @@ Data snapshot: **8 September 2026**. Retrieved pages and structured source snaps
 - [MetaBot — Build Planner](https://metabot.gg/en/dawnwalker/build-planner): the original calculator, names, dependencies, Ultimate flags and manual links. Its uniform one-point costs and artificial character-level gates were not carried over.
 - [MetaBot — Skills](https://metabot.gg/en/dawnwalker/skills): original game icons for individual skills. Retrieved image addresses are retained in the local research records.
 
-The normalized catalogue contains **90 skills / 274 ranks**: 63 perks and 27 abilities. The saved tables provide SP costs for 266 ranks. Astral Communion and Compel Soul are abilities without a common slot. The supplied game cards below resolve their upgrade costs and ranks II–IV, correcting incorrectly accumulated GamesDB values. Astral Communion rank I remains outside the screenshot. Their per-use bonuses are not multiplied into character totals because use counts are not tracked.
+The normalized catalogue contains **90 skills / 274 ranks**: 63 perks and 27 abilities. The saved tables provide SP costs for 266 ranks. Astral Communion and Compel Soul are abilities without a common slot. The supplied game cards below resolve their upgrade costs and ranks II–IV, correcting incorrectly accumulated GamesDB values. The additional first-rank screenshot confirms Astral Communion I at +0.4% per place of power. Their per-use bonuses are not multiplied into character totals because use counts are not tracked.
 
 Some Codex ability descriptions are empty. Their original text is supplemented from GamesDB with a warning retained in the catalogue metadata. These values should be checked against the game; they are not independently verified damage formulas.
 
@@ -60,8 +60,8 @@ The unmodified PNGs, hashes, transcriptions, original comparison snapshots and t
 
 Seventeen additional screenshots cover all **10 Witchcraft abilities / 40 ranks**, including paired scroll positions. The user explicitly confirmed that **Compel Soul I, Astral Communion I and Burning Blood I are already learned from the start**. New builds, cleared builds, restored local builds and imported links retain these three ranks. They cost no SP, training time or manuals and cannot be removed; their upgrades remain optional. Burning Blood is learned without automatically occupying an equipped slot.
 
-- **Compel Soul:** ranks II–IV grant −1% / −1.5% / −2% permanent Witchcraft Ability Cooldown per soul, with 1 SP and no training time each. The displayed −0.5% total after one use supports −0.5% per soul at I. The character's current use count is not imported.
-- **Astral Communion:** ranks II–IV grant +0.8% / +1.2% / +1.6% permanent Witchcraft Ability Damage per place of power, with 1 SP and no training time each. **Rank I's effect row is outside the supplied scroll position.** The 0% total after zero uses does not establish its value; the older 0.4% GamesDB candidate remains unverified and is not displayed as a confirmed value.
+- **Compel Soul:** ranks II–IV grant −1% / −1.5% / −2% permanent Witchcraft Ability Cooldown per soul, with 1 SP and no training time each. The additional first-rank screenshot directly confirms −0.5% per soul at I. The character's current use count is not imported.
+- **Astral Communion:** ranks II–IV grant +0.8% / +1.2% / +1.6% permanent Witchcraft Ability Damage per place of power, with 1 SP and no training time each. An additional screenshot directly shows the learned rank-I row at **+0.4% per place of power**. All four per-place rates are now verified from the game cards.
 - **Burning Blood:** displayed Damage per second is 66 / 68 / 70 / 79; durations are 10 / 12 / 14 / 16 seconds. On-death transfer starts at III. Its three paid upgrades cost 1 / 2 / 3 SP and 1 / 1 / 2 training segments.
 - **Life Lock:** reflection is 100 / 120 / 160 / 200%, blocking 2 / 3 / 3 / 4 hits for 90 seconds. **Every rank shows a book icon**, so the previous first-rank manual exemption is removed. The guide's quest route remains an acquisition note, without replacing the observed manual requirement.
 - **Soul Reaping:** 40 / 47 / 55 / 62 Lifesteal per second over 18 / 24 / 30 / 36 seconds. III transfers 20% of received Damage to the target; IV transfers 40% and heals 500 on the target's death.
@@ -79,7 +79,7 @@ The cards also establish the following displayed combat values. These are shown 
 | Ravenous Flock | 45 s | 2 | 40% |
 | Soul Stigma | 35 s | 1 | 35% |
 
-No hourglass cost is shown on Compel Soul, Astral Communion or Mercurial Fervour upgrade rows; their training time is recorded as zero. Zero-time rows omit the hourglass in the skill card. Originals, hashes, combined transcriptions, comparison snapshots and evidence limits are retained locally under `research/user-game-screenshots/2026-09-08/witchcraft-abilities`. The existing catalogue generator applies the verified ability fields after web additions. Font of Life, all Swordmastery/Vampirism data and all image/video assets remain unchanged.
+No hourglass cost is shown on Compel Soul, Astral Communion or Mercurial Fervour upgrade rows; their training time is recorded as zero. The user explicitly clarified the independent cost symbols: a leading book means a manual is needed, while SP and any training time appear in parentheses at the end. Additional Mercurial Fervour and Cycle of Ruin captures confirm that their current cost tables already match this interpretation. The three learned first ranks are directly visible as filled diamonds in the additional captures, retained under local `research/user-game-screenshots/2026-09-08/witchcraft-starting-ranks`. Zero-time rows omit the hourglass in the skill card. Originals, hashes, combined transcriptions, comparison snapshots and evidence limits are retained locally under `research/user-game-screenshots/2026-09-08/witchcraft-abilities`. The existing catalogue generator applies the verified ability fields after web additions. Font of Life, all Swordmastery/Vampirism data and all image/video assets remain unchanged.
 
 ## Effect accumulation
 
@@ -138,6 +138,12 @@ Skill cards display only ranks above the selected rank, directly in the scrollab
 Each training-cost row now shows one manual where the catalogue establishes that its rank exceeds the skill's starting availability. Ranks within that availability show no manual requirement. Unknown starting availability displays `?` beside the book in both rank rows and the next-rank cost, consistent with the upper-bound manual total.
 
 Fate's Favour has a confirmed manual item, but the saved Codex and GamesDB records do not give its initial manual-free ranks. The [Fextralife perk page](https://bloodofdawnwalker.wiki.fextralife.com/Fate%27s_Favour) and [manual page](https://bloodofdawnwalker.wiki.fextralife.com/Fate%27s_Favour_Manual), checked on 8 September 2026, also do not identify the required ranks. Its rank requirements therefore remain unconfirmed rather than being inferred from the existence of a manual, the perk tier, or the number of readable book parts. Source responses are retained locally in `research/manual-rank-indicators`.
+
+### Unlearned rank rows and node frames
+
+Unlearned rank rows follow the supplied game-card layout. Their left marker is a book when a manual is required, a hollow diamond when no manual or other requirement blocks that rank, or a lock for other unmet requirements. Unknown manual requirements retain a question mark beside the book. SP and any nonzero or unknown training-time cost appear in parentheses at the end of the effect text, with each parenthesized value kept together while wrapping. The separate cost footer and visible rank-number boxes have been removed from these rows; rank numbers remain available to screen readers. The separate touch/dialog training controls retain their existing cost summary.
+
+Perk nodes use circular outer and inner frames. Ability nodes retain the existing angled shape, including abilities that work passively while equipped. Hover, learned, equipped and locked colors and interactions remain unchanged. The source icons and screenshots are unchanged; only their frames and card layout are updated.
 
 ### Resource icons
 
