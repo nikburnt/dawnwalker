@@ -26,7 +26,7 @@ The header pairs the official game wordmark with an image-generated Character Pl
 
 Skill cards show upcoming ranks directly, with current ability values retained above and direct book links at the bottom. Upcoming ranks follow the game layout: a book, hollow diamond or lock at the left, with SP and training-time costs in parentheses at the end of the effect. A question mark beside a book marks an unconfirmed manual requirement. Perks and active abilities use circular bodies with four cardinal spikes. Only the eight passive abilities in the right columns use plain circular frames. Hover adds a separate golden circular halo, with the dark interior and original artwork retained.
 
-The three skill-tree tabs use the original in-game Swordmastery, Witchcraft and Vampirism emblems. With a mouse, skill nodes highlight only under the pointer. Hover shows their cards; left/right clicks change ranks without leaving a node selected. Keyboard focus remains visible.
+The three skill-tree tabs use exact 84 × 84 PNG crops of the neutral Swordmastery, Witchcraft and Vampirism emblems from the user-supplied 4K screenshots. With a mouse, skill nodes highlight only under the pointer. Hover shows their cards; left/right clicks change ranks without leaving a node selected. Keyboard focus remains visible.
 
 Resource icons use the game glyphs from an official screenshot, bundled for offline use. Skill-card training costs use the same icons in place of unit abbreviations.
 

@@ -244,9 +244,15 @@ No separate original texture files were found. The unmodified 1920 × 1080 scree
 
 ### Skill-tree tab emblems
 
-The Swordmastery, Witchcraft and Vampirism tabs use the neutral emblems shown in the game's Character menu. Swordmastery (sword) and Vampirism (fangs) come from the same [Xbox Wire screenshot](https://xboxwire.thesourcemediaassets.com/sites/2/2026/07/The-Blood-of-Dawnwalker-Screenshot-26-199957e4b246b93ca127.jpg) as the resource glyphs, at `(326, 121, 38, 38)` and `(553, 121, 38, 38)`. Witchcraft comes from the neutral tab in the [Swordmastery gameplay screenshot published by Hack the Minotaur](https://hacktheminotaur.com/wp-content/uploads/2026/07/blood-of-dawnwalker-swordmastery-skill-tree.webp), at `(152, 113, 40, 42)`.
+The Swordmastery, Witchcraft and Vampirism tabs use lossless PNG crops of the neutral emblems in the two user-supplied 3840 × 2160 screenshots. No generation, resizing, recoloring, sharpening or background removal is applied; the decoded pixels match the source rectangles exactly. The existing SVG display size, lighten blending and tab selection highlight are retained.
 
-Coordinates are `(x, y, width, height)` in the original 1920 × 1080 images. Both images are bundled unmodified, and the shared glyph renderer clips each emblem to its exact source rectangle. The existing tab selection highlight is preserved. Source URLs and file hashes are recorded locally in `research/tree-tab-icons/provenance.json`.
+| Emblem | User screenshot | Crop `(x, y, width, height)` | Output |
+|---|---|---|---|
+| Witchcraft | IMG_6627.JPG | `(322, 241, 84, 84)` | `public/ui/tree-witchcraft.png` |
+| Swordmastery | IMG_6627.JPG | `(710, 241, 84, 84)` | `public/ui/tree-swordmastery.png` |
+| Vampirism | IMG_6626.JPG | `(1186, 241, 84, 84)` | `public/ui/tree-vampirism.png` |
+
+Original screenshots, crop coordinates and source/output hashes are retained in `research/tree-tab-icons-user-crops`. These replace the earlier 1920 × 1080 web screenshot regions documented in `research/tree-tab-icons/provenance.json`. The old Swordmastery screenshot, no longer needed by the interface, is retained with the research files. The original Xbox Wire screenshot remains bundled for the Skill Points, Manual and Time glyphs.
 
 ### Animated ability previews
 
