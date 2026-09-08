@@ -18,7 +18,7 @@ Data snapshot: **8 September 2026**. Retrieved pages and structured source snaps
 - [MetaBot — Build Planner](https://metabot.gg/en/dawnwalker/build-planner): the original calculator, names, dependencies, Ultimate flags and manual links. Its uniform one-point costs and artificial character-level gates were not carried over.
 - [MetaBot — Skills](https://metabot.gg/en/dawnwalker/skills): original game icons for individual skills. Retrieved image addresses are retained in the local research records.
 
-The normalized catalogue contains **90 skills / 274 ranks**: 63 perks and 27 abilities. The saved tables provide SP costs for 266 ranks. Astral Communion and Compel Soul are included as abilities without a common slot, but their costs and progression remain unconfirmed. GamesDB may incorrectly accumulate their bonuses; those numbers are excluded from numerical totals.
+The normalized catalogue contains **90 skills / 274 ranks**: 63 perks and 27 abilities. The saved tables provide SP costs for 266 ranks. Astral Communion and Compel Soul are abilities without a common slot. The supplied game cards below resolve their upgrade costs and ranks II–IV, correcting incorrectly accumulated GamesDB values. Astral Communion rank I remains outside the screenshot. Their per-use bonuses are not multiplied into character totals because use counts are not tracked.
 
 Some Codex ability descriptions are empty. Their original text is supplemented from GamesDB with a warning retained in the catalogue metadata. These values should be checked against the game; they are not independently verified damage formulas.
 
@@ -36,10 +36,10 @@ The update adds information to 27 skills, including 22 acquisition notes. Every 
 | Renounce Death | 10 seconds of Immortality and Lifesteal, once per combat. [GamesRadar](https://www.gamesradar.com/games/action-rpg/blood-of-dawnwalker-perks-skills-abilities/). |
 | Tactical Mastery | Active Abilities cost 1 fewer charge, minimum 1. [Gamer Guides](https://www.gamerguides.com/the-blood-of-dawnwalker/guide/getting-started/character-development/best-swordmastery-perks-and-abilities). |
 | Swordmastery acquisition | Seven initial/upgrade routes; Dirty Trick rank I needs no manual. [PC Gamer](https://www.pcgamer.com/games/rpg/blood-of-dawnwalker-swordmastery-ability-manual-locations/). |
-| Witchcraft acquisition | Ten routes, including Anca's early unlocks. Burning Blood and Mercurial Fervour need no first manual; Life Lock replaces its first manual with a quest reward, retained as an acquisition requirement. [PC Gamer](https://www.pcgamer.com/games/rpg/blood-of-dawnwalker-witchcraft-ability-manual-locations/). |
+| Witchcraft acquisition | Ten routes, including Anca's early unlocks. Burning Blood and Mercurial Fervour need no first manual; The guide describes a Life Lock quest unlock; the later user-supplied game card below instead shows a manual requirement at every rank. [PC Gamer](https://www.pcgamer.com/games/rpg/blood-of-dawnwalker-witchcraft-ability-manual-locations/). |
 | Vrakhir acquisition | Five routes. Scarlet Shield, Shadowstorm and Blood Surge rank I are direct blood rewards requiring no SP. The planner therefore counts no training time for receiving them; quest time is outside the training budget. Later ranks retain catalogue costs and Corruption requirements. [PC Gamer](https://www.pcgamer.com/games/rpg/blood-of-dawnwalker-vrakhir-blood-abilities/). |
 
-The three blood rewards replace the generic first-rank 1 SP entries with zero; the source and reason are retained in their catalogue metadata. Starting availability does not establish free training for other skills, so their existing training costs were not changed. Unconfirmed costs remain: **8 SP entries, 19 training-time entries and 73 Corruption entries**. The last count includes special unlocks whose numeric threshold is unknown. These remain uncertain in the calculator.
+The three blood rewards replace the generic first-rank 1 SP entries with zero; the source and reason are retained in their catalogue metadata. Starting availability does not establish free training for other skills, so their existing training costs were not changed. After the user-supplied game cards below, unconfirmed costs remain: **0 SP entries, 7 training-time entries and 73 Corruption entries**. The last count includes special unlocks whose numeric threshold is unknown. These remain uncertain in the calculator.
 
 Exact numbers for Aether Cascade and Entwined Torment were not independently established in the wiki pass; they are now verified by the user-supplied game cards below. Lethal Crescendo remains unconfirmed. Some fan sites also list casting costs, but rank scaling and conflicting descriptions prevent their use as a reliable combat-cost formula. These values remain unconfirmed.
 
@@ -54,7 +54,32 @@ Twenty original screenshots cover **20 Witchcraft perks / 49 ranks**. Their desc
 - **Aether Cascade:** +20% Witchcraft Ability Damage for each Witchcraft Ability used, up to +100%, resetting after combat. The summary retains this as a conditional effect rather than permanent Damage.
 - **Runic Bulwark:** the card confirms the existing 15% random-Hex chance on a Perfect Block. Its rank row now preserves the game's “Unlocks Ultimate” wording.
 
-The unmodified PNGs, hashes, transcriptions, original comparison snapshots and the player's manual baseline are retained under local `research/user-game-screenshots/2026-09-08`. Catalogue additions are reproducible from `research/user-game-screenshots/verified-skills.json` and take precedence over web tables only for the observed fields. Each affected skill carries its screenshot reference and verified fields as metadata. Screenshots and local research records are not published. **Font of Life and all Witchcraft abilities are outside these two screenshot batches.**
+The unmodified PNGs, hashes, transcriptions, original comparison snapshots and the player's manual baseline are retained under local `research/user-game-screenshots/2026-09-08`. Catalogue additions are reproducible from `research/user-game-screenshots/verified-skills.json` and take precedence over web tables only for the observed fields. Each affected skill carries its screenshot reference and verified fields as metadata. Screenshots and local research records are not published. **Font of Life is unchanged at the user's request.** The ability cards supplied afterwards are documented below.
+
+## User-supplied Witchcraft ability cards: 8 September 2026
+
+Seventeen additional screenshots cover all **10 Witchcraft abilities / 40 ranks**, including paired scroll positions. The user explicitly confirmed that **Compel Soul I, Astral Communion I and Burning Blood I are already learned from the start**. New builds, cleared builds, restored local builds and imported links retain these three ranks. They cost no SP, training time or manuals and cannot be removed; their upgrades remain optional. Burning Blood is learned without automatically occupying an equipped slot.
+
+- **Compel Soul:** ranks II–IV grant −1% / −1.5% / −2% permanent Witchcraft Ability Cooldown per soul, with 1 SP and no training time each. The displayed −0.5% total after one use supports −0.5% per soul at I. The character's current use count is not imported.
+- **Astral Communion:** ranks II–IV grant +0.8% / +1.2% / +1.6% permanent Witchcraft Ability Damage per place of power, with 1 SP and no training time each. **Rank I's effect row is outside the supplied scroll position.** The 0% total after zero uses does not establish its value; the older 0.4% GamesDB candidate remains unverified and is not displayed as a confirmed value.
+- **Burning Blood:** displayed Damage per second is 66 / 68 / 70 / 79; durations are 10 / 12 / 14 / 16 seconds. On-death transfer starts at III. Its three paid upgrades cost 1 / 2 / 3 SP and 1 / 1 / 2 training segments.
+- **Life Lock:** reflection is 100 / 120 / 160 / 200%, blocking 2 / 3 / 3 / 4 hits for 90 seconds. **Every rank shows a book icon**, so the previous first-rank manual exemption is removed. The guide's quest route remains an acquisition note, without replacing the observed manual requirement.
+- **Soul Reaping:** 40 / 47 / 55 / 62 Lifesteal per second over 18 / 24 / 30 / 36 seconds. III transfers 20% of received Damage to the target; IV transfers 40% and heals 500 on the target's death.
+- **Ravenous Flock:** displayed Area Damage is 110 / 121 / 132 / 143, ending after 1 / 2 / 3 / 4 hits, with 100% Critical Hits on the target. Duration is **20 seconds at every rank**, replacing the decoded 4 / 4 / 8 / 8-second values.
+- **Soul Stigma, Unholy Vitality and Cycle of Ruin:** full rank text, durations, transfers, healing and final-rank conditions match the game cards. Each rank requires a manual. Unholy Vitality and Cycle of Ruin work passively only while equipped.
+- **Mercurial Fervour:** ranks cost 1 SP each with **no training time**. Only I is available without a manual; it is not initially learned. It uses no common slot.
+
+The cards also establish the following displayed combat values. These are shown separately from SP and training costs; no equipment scaling, perk-adjusted casting cost, usage count or complete damage formula is inferred.
+
+| Ability | Cooldown | Activation Charges | Health cost |
+|---|---:|---:|---:|
+| Burning Blood | 30 s | 1 | 15% |
+| Life Lock | 30 s | 2 | 10% |
+| Soul Reaping | 45 s | 2 | 15% |
+| Ravenous Flock | 45 s | 2 | 40% |
+| Soul Stigma | 35 s | 1 | 35% |
+
+No hourglass cost is shown on Compel Soul, Astral Communion or Mercurial Fervour upgrade rows; their training time is recorded as zero. Zero-time rows omit the hourglass in the skill card. Originals, hashes, combined transcriptions, comparison snapshots and evidence limits are retained locally under `research/user-game-screenshots/2026-09-08/witchcraft-abilities`. The existing catalogue generator applies the verified ability fields after web additions. Font of Life, all Swordmastery/Vampirism data and all image/video assets remain unchanged.
 
 ## Effect accumulation
 
@@ -136,7 +161,7 @@ This is a fan-made tool. Game icons and illustrations belong to their respective
 
 ### Build links and codes
 
-Sharing uses the versioned `DW1-` format: a fixed registry of 90 skill IDs, 3 bits per rank, ordered ability slots and resource settings. The 55-byte payload includes a CRC-16 checksum and is encoded as URL-safe Base64 without padding (78 characters including the prefix). Its field order is fixed in `app/build-code.ts`. Imports validate the checksum, rank limits, prerequisites, Ultimate restrictions, equipment and resource ranges before replacing a build. Budgets may remain below planned costs, matching the resource editor. Original purchase order is not shared; the summary lists allocated ranks.
+Sharing uses the versioned `DW1-` format: a fixed registry of 90 skill IDs, 3 bits per rank, ordered ability slots and resource settings. The 55-byte payload includes a CRC-16 checksum and is encoded as URL-safe Base64 without padding (78 characters including the prefix). Its field order is fixed in `app/build-code.ts`. Imports validate the checksum, rank limits, prerequisites, Ultimate restrictions, equipment and resource ranges before replacing a build. Legacy codes are checked against their original ranks and slots before the three free starting Witchcraft ranks are added; the DW1 wire format is unchanged. Budgets may remain below planned costs, matching the resource editor. Original purchase order is not shared; the summary lists allocated ranks.
 
 The code lives in the link fragment and is decoded locally. Loading a link adds the previous saved build to Undo and consumes the fragment so later refreshes retain edits. Local browser storage remains compatible with earlier saved builds; the public sharing UI uses links and codes instead of JSON files. Tests cover every rank of all 90 skills, all slot positions, resource boundaries, an independently generated binary fixture and malformed codes. Browser interaction testing has not been performed.
 

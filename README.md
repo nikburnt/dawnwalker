@@ -10,11 +10,11 @@ Search all skills by name with **Find a skill** (**Command-K / Ctrl-K**). Trees 
 
 All 27 abilities include a silent gameplay preview from Fextralife. Hover an ability to watch it, then use the video controls to pause, seek or enter full screen. With **Reduce Motion** enabled, press Play to start. Clips are included for offline use and link to their source pages.
 
-Twenty user-supplied Witchcraft perk cards verify 49 ranks. The update confirms starting/manual ranks, keeps seven Anytime perks active at night, and fills the numerical effects of Witchcraft Mastery, Entwined Torment and Aether Cascade.
+User-supplied game cards cover 20 Witchcraft perks and all 10 abilities. The update confirms starting/manual ranks, keeps seven Anytime perks active at night, and supplies observed numerical effects, cooldowns and casting costs. Astral Communion I remains missing its per-place bonus value because that row is outside the screenshot. Font of Life is unchanged.
 
 The wiki cross-check adds 22 acquisition routes to the catalogue, four numerical Ultimate effects, Nourishing Blood Corruption gates, and corrections for manual unlocks and direct blood rewards. Acquisition guides are linked from **Manuals** where available.
 
-Select a skill and add ranks. Equip learned abilities in the available slots. Open the build summary for costs and effects. Planning mode allows future acquisition requirements; **My resources** checks your budgets and Corruption. Manuals are counted from catalogue starting ranks, and quests remain acquisition notes.
+Compel Soul I, Astral Communion I and Burning Blood I start learned for free. They remain after Clear and are added to older saved builds and shared links. Add further ranks, then equip learned abilities in the available slots. Open the build summary for costs and effects. Planning mode allows future acquisition requirements; **My resources** checks your budgets and Corruption. Manuals are counted from catalogue starting ranks, and quests remain acquisition notes.
 
 Builds stay in your browser. **Export** provides a shareable link and a 78-character code; **Import** accepts either. They preserve ranks, equipped slot order and resources. Shared links load automatically, and **Undo** restores the previous build. Damaged codes do not change it. Costs use the catalogue; unconfirmed values are marked with a question mark. Older builds still load, but legacy personal cost overrides and manual unlock flags are ignored. Sources and media attribution are retained in the project documentation and metadata.
 
