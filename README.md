@@ -6,6 +6,8 @@ A fan-made skill planner for The Blood of Dawnwalker, with 90 skills, original g
 
 The interface, skill descriptions, tooltips and build summaries are in English.
 
+The wiki cross-check adds 22 acquisition routes, four numerical Ultimate effects, Nourishing Blood Corruption gates, and corrections for manual unlocks and direct blood rewards. Open **How to obtain · location spoilers** in a skill card for its route and source.
+
 Select a skill and add ranks. Equip learned abilities in the available slots. Open the build summary for costs and effects. Planning mode allows future unlocks; inventory mode checks your declared resources and unlocked ranks.
 
 Builds stay in your browser. Use JSON export and import to move them between devices. Unconfirmed game values are marked with a question mark and can be overridden using your own game data.

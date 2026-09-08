@@ -22,6 +22,27 @@ The normalized catalogue contains **90 skills / 274 ranks**: 63 perks and 27 abi
 
 Some Codex ability descriptions are empty. Their original text is supplemented from GamesDB with a warning in the skill card. These values should be checked against the game; they are not independently verified damage formulas.
 
+## Wiki cross-check: 8 September 2026
+
+[Dawnwalker Database Wiki — Skills](https://dawnwalkerdatabase.wiki/skills/) supplied additional leads. Its official screenshots and linked gameplay guides were checked before changing progression. Several wiki summaries assign effects to the wrong names (including Witchcraft Mastery and the two blood buffs), so the existing source-backed descriptions were retained.
+
+The update adds information to 27 skills, including 22 acquisition notes. Every affected card links to the supporting source. Acquisition routes are collapsed under **How to obtain · location spoilers**.
+
+| Addition | Evidence and treatment |
+|---|---|
+| Nourishing Blood II / III | Corruption 3 / 8, read directly from the [official panel](https://static.bandainamcoent.eu/high/dawnwalker/the-blood-of-dawnwalker/02-news/DAWNWALKER-community-bulletin-board-11/SC2-VAMPIRIC.jpg). Marked as a prerelease reference. |
+| Last Stand | +100% Weapon Damage below 30% Health; retained as a conditional bonus. [GamesRadar gameplay guide](https://www.gamesradar.com/games/action-rpg/blood-of-dawnwalker-perks-skills-abilities/) and [Gamer Guides](https://www.gamerguides.com/the-blood-of-dawnwalker/guide/getting-started/character-development/best-swordmastery-perks-and-abilities). |
+| Runic Bulwark | 15% random-Hex chance on a Perfect Block. [GamesRadar](https://www.gamesradar.com/games/action-rpg/blood-of-dawnwalker-perks-skills-abilities/). |
+| Renounce Death | 10 seconds of Immortality and Lifesteal, once per combat. [GamesRadar](https://www.gamesradar.com/games/action-rpg/blood-of-dawnwalker-perks-skills-abilities/). |
+| Tactical Mastery | Active Abilities cost 1 fewer charge, minimum 1. [Gamer Guides](https://www.gamerguides.com/the-blood-of-dawnwalker/guide/getting-started/character-development/best-swordmastery-perks-and-abilities). |
+| Swordmastery acquisition | Seven initial/upgrade routes; Dirty Trick rank I needs no manual. [PC Gamer](https://www.pcgamer.com/games/rpg/blood-of-dawnwalker-swordmastery-ability-manual-locations/). |
+| Witchcraft acquisition | Ten routes, including Anca's early unlocks. Burning Blood and Mercurial Fervour need no first manual; Life Lock replaces its first manual with a quest unlock, which must be marked in My game. [PC Gamer](https://www.pcgamer.com/games/rpg/blood-of-dawnwalker-witchcraft-ability-manual-locations/). |
+| Vrakhir acquisition | Five routes. Scarlet Shield, Shadowstorm and Blood Surge rank I are direct blood rewards requiring no SP. The planner therefore counts no training time for receiving them; quest time is outside the training budget. Later ranks retain catalogue costs and require declared unlocks. [PC Gamer](https://www.pcgamer.com/games/rpg/blood-of-dawnwalker-vrakhir-blood-abilities/). |
+
+The three blood rewards replace the generic first-rank 1 SP entries with zero; the source and reason are shown in their cards. Starting availability does not establish free training for other skills, so their existing training costs were not changed. Unconfirmed costs remain: **8 SP entries, 19 training-time entries and 73 Corruption entries**. The last count includes special unlocks whose numeric threshold is unknown; declaring an unlock resolves their availability for your build.
+
+Exact numbers for Aether Cascade, Entwined Torment and Lethal Crescendo were not independently established in this pass. Some fan sites also list casting costs, but rank scaling and conflicting descriptions prevent their use as a reliable combat-cost formula. These values remain unconfirmed.
+
 ## Effect accumulation
 
 Values represent the state after the selected rank. A new rank replaces the previous value of the same statistic and retains other previously unlocked statistics. Examples from the saved tables:
