@@ -305,3 +305,8 @@ Original glyphs are displayed through clipped SVG viewports from four unmodified
 | Critical Direction chevron | Perfect Riposte | 674 × 576 | 336, 118, 28, 21 |
 
 The empty mouth follows Corruption in the Hastened Corruption text, including before Level. Death from Above keeps all three colored skulls after Tough enemies at every rank; no numerical enemy-level differences are inferred. Perfect Riposte places the red chevron after Critical Direction. Numeric gates, blood unlocks and learned diamonds are distinct. Screenshot filenames, all gold annotations, byte hashes and validation results are retained in local `research/card-layout-and-emphasis`.
+
+
+## Card footer simplification
+
+At the user’s request, the separate Skill Points / Training time block and its 16-segment strip were removed from skill cards. Training costs remain in the individual upcoming rank rows. Unlock requirements, book links, acquisition guides and the existing rank/equip controls remain available. Catalogue values and calculations are unchanged.
