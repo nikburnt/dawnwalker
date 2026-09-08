@@ -12,9 +12,9 @@ All 27 abilities include a silent gameplay preview from Fextralife. Hover an abi
 
 The wiki cross-check adds 22 acquisition routes, four numerical Ultimate effects, Nourishing Blood Corruption gates, and corrections for manual unlocks and direct blood rewards. Open **How to obtain · location spoilers** in a skill card for its route.
 
-Select a skill and add ranks. Equip learned abilities in the available slots. Open the build summary for costs and effects. Planning mode allows future unlocks; inventory mode checks your declared resources and unlocked ranks.
+Select a skill and add ranks. Equip learned abilities in the available slots. Open the build summary for costs and effects. Planning mode allows future acquisition requirements; **My resources** checks your budgets and Corruption. Manuals are counted from catalogue starting ranks, and quests remain acquisition notes.
 
-Builds stay in your browser. Use JSON export and import to move them between devices. Costs use the catalogue; unconfirmed values are marked with a question mark. Older builds still load, but legacy personal cost overrides are ignored. Sources and media attribution are retained in the project documentation and metadata.
+Builds stay in your browser. Use JSON export and import to move them between devices. Costs use the catalogue; unconfirmed values are marked with a question mark. Older builds still load, but legacy personal cost overrides and manual unlock flags are ignored. Sources and media attribution are retained in the project documentation and metadata.
 
 This repository contains the ready-to-use static site. All code, images and videos are embedded in `index.html`; you can also download it and use it offline without a server. GitHub Pages publishes the root of `main`. Replace `index.html` with a new standalone build to update the website.
 
