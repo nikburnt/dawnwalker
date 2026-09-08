@@ -6,7 +6,7 @@ A fan-made skill planner for The Blood of Dawnwalker, with 90 skills, original g
 
 The interface, skill descriptions, tooltips and build summaries are in English.
 
-Search all skills by name with **Find a skill** (**Command-K / Ctrl-K**). Perks keep readable labels; drag or swipe the tree to explore. Abilities have their own grid, and training costs and rank controls stay visible at the bottom of the skill card. The layout adapts to narrow screens and keeps all resource types visible.
+Search all skills by name with **Find a skill** (**Command-K / Ctrl-K**). Trees follow the game menu, with perk branches on the left, Ultimates below and two ability columns on the right. Hover or focus an icon for its name, or select it for full details. **Fit tree**, zoom, drag and swipe keep the diagram usable across screen sizes without stretching its connections. Training costs and rank controls stay visible at the bottom of the skill card.
 
 All 27 abilities include a silent gameplay preview from Fextralife. Select an ability to watch it, then use the video controls to pause, seek or enter full screen. With **Reduce Motion** enabled, press Play to start. Clips are included for offline use and link to their source pages.
 
