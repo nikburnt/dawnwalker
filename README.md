@@ -20,6 +20,8 @@ This repository contains the ready-to-use static site. All code, images and vide
 
 Each rank lists its manual requirement with a book icon. A question mark marks an unconfirmed requirement.
 
+The three skill-tree tabs use the original in-game Swordmastery, Witchcraft and Vampirism emblems.
+
 Resource icons use the game glyphs from an official screenshot, bundled for offline use. Skill-card training costs use the same icons in place of unit abbreviations.
 
 [Sources, methodology and data limitations](SOURCES.md). Data snapshot: 8 September 2026. Research snapshots referenced in that document are retained locally by the author and are not included in this publication.

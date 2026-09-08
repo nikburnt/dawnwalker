@@ -97,6 +97,12 @@ Skill Points (sun and crescent), Manuals (open book) and Time (hourglass) use th
 
 No separate original texture files were found. The unmodified 1920 × 1080 screenshot is bundled once and displayed through three clipped SVG viewports: Skill Points `(1536, 29, 32, 32)`, Manuals `(1354, 619, 29, 25)` and Time `(1615, 469, 12, 23)`, expressed as `(x, y, width, height)` in source pixels. An explicit rectangular clip path excludes adjacent screenshot pixels even when the glyph has a different aspect ratio from its icon box. The hourglass is trimmed by two source pixels on each side. Lighten blending suppresses the dark interface background. These are screenshot regions, not reconstructed vectors or claimed texture exports; sharpness is limited by the source capture. The source image, coordinates and SHA-256 are recorded locally in `research/resource-icons/provenance.json`.
 
+### Skill-tree tab emblems
+
+The Swordmastery, Witchcraft and Vampirism tabs use the neutral emblems shown in the game's Character menu. Swordmastery (sword) and Vampirism (fangs) come from the same [Xbox Wire screenshot](https://xboxwire.thesourcemediaassets.com/sites/2/2026/07/The-Blood-of-Dawnwalker-Screenshot-26-199957e4b246b93ca127.jpg) as the resource glyphs, at `(326, 121, 38, 38)` and `(553, 121, 38, 38)`. Witchcraft comes from the neutral tab in the [Swordmastery gameplay screenshot published by Hack the Minotaur](https://hacktheminotaur.com/wp-content/uploads/2026/07/blood-of-dawnwalker-swordmastery-skill-tree.webp), at `(152, 113, 40, 42)`.
+
+Coordinates are `(x, y, width, height)` in the original 1920 × 1080 images. Both images are bundled unmodified, and the shared glyph renderer clips each emblem to its exact source rectangle. The existing tab selection highlight is preserved. Source URLs and file hashes are recorded locally in `research/tree-tab-icons/provenance.json`.
+
 ### Animated ability previews
 
 All **27 abilities** include the gameplay GIF from their corresponding Fextralife page, starting with [Artery Strike](https://bloodofdawnwalker.wiki.fextralife.com/Artery_Strike). Each animation metadata entry retains its direct source link. Page HTML, original GIFs, original asset URLs and file hashes were saved locally on 8 September 2026. Perk illustrations retain their existing sources.
