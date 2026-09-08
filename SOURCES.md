@@ -310,3 +310,10 @@ The empty mouth follows Corruption in the Hastened Corruption text, including be
 ## Card footer simplification
 
 At the user’s request, the separate Skill Points / Training time block and its 16-segment strip were removed from skill cards. Training costs remain in the individual upcoming rank rows. Unlock requirements, book links, acquisition guides and the existing rank/equip controls remain available. Catalogue values and calculations are unchanged.
+
+
+## Retained effects in the learned card row
+
+The learned row now combines the retained effects of all selected perk ranks, using the same effect identities and snapshots as Build summary. When an effect is upgraded, its earlier value is replaced; a different effect remains active. Source rows are displayed in rank order, keeping their original text, source-specific gold emphasis and inline glyphs. Future upgrade rows retain their individual original text and costs. Ability rank descriptions already contain their current effect values and retain that complete text.
+
+For example, Lasting Malediction IV retains III's +40% Duration and adds IV's 20% extension after a Witchcraft Ability. Sustained Focus IV retains II's full Activation Charge at combat start and upgrades capacity to 4 Activation Charges. The correction restores retained text in 37 rank states across 23 perks; the catalogue, numbers, effect calculations, costs and card layout are unchanged. The removed training-cost footer stays removed. Reproductions of both previously incomplete rendered rows, corrected output and regression checks are retained in local `research/cumulative-card-effects`.
