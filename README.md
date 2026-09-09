@@ -79,3 +79,5 @@ Switch to **Timeline** to schedule quests, activities and individual skill ranks
 
 Unknown time is not silently treated as confirmed zero: subsequent dates and remaining budget are marked as estimates. The calendar shows up to 60 days; later actions remain in the queue. Manual collection, blood acquisition, Corruption and skill-point gains are not automatically simulated. The sources and documented limitations are available inside the planner.
 
+
+Quest cards and the timeline now include concise descriptions, original item and skill artwork, quantities, rarity and explicit reward choices. Skill points and time share the original game glyphs with the character planner. All media is embedded for offline use.
