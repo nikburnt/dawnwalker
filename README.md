@@ -55,7 +55,7 @@ Vampirism cards use the original Corruption mouth with a red threshold, a distin
 
 Switch to **Quests** in the top navigation. The skill build and its undo history stay in place when you switch sections.
 
-- Browse all **207 MetaBot entries** (29 main quests, 31 side quests and 147 activities) in **Chains** or **List** view. **75 documented connections** distinguish required steps, optional branches, alternate routes and materials needed to finish a quest. The nine named groups organize related questlines; arrows are based on documented connections, not region recommendations or walkthrough list order.
+- Browse all **249 catalogue entries** (29 main quests, 31 side quests and 147 activities) in **Chains** or **List** view. **75 documented connections** distinguish required steps, optional branches, alternate routes and materials needed to finish a quest. The nine named groups organize related questlines; arrows are based on documented connections, not region recommendations or walkthrough list order.
 - Search by quest, reward or place. Filter by reward category and item rarity; **More filters** adds quest type, region, progress and choices/timing checks. A reward type and rarity must belong to the same item. Matching quests keep their known ancestors visible as **Chain context**. **Respect my reward choices** hides reward alternatives excluded by recorded decisions.
 - Mark quests **Not started**, **In progress**, **Completed** or **Failed / missed**. Record the supported decisions inside a quest. **15 choice checks** cover village entry, Mert, Crake, the Font, Lacra, the relic, Court blood rewards, the dream and final routes. Consequences are previewed before saving a conflicting change; other quest statuses are never silently changed. **Undo** restores the last tracker change.
 - Open **Your game clock** to enter elapsed days and segments after the prologue. **Eight timers** use explicitly recorded objective triggers. Advancing the tracker clock shows waiting periods and deadlines; checking off a quest does not spend time or start a timer. The 30-day family deadline is not treated as failure of every side quest.
@@ -67,7 +67,7 @@ All quest data is embedded in **Dawnwalker.html** and works offline. Links open 
 
 ## Timeline
 
-**Timeline** is a board with a separate **Prologue** before **30 main days**, each with **eight daylight and eight night segments**. The action library contains all 207 quests and activities plus 269 trainable skill ranks. Search by quest, reward or place; filter by quest type, reward or skill tree.
+**Timeline** is a board with a separate **Prologue** before **30 main days**, each with **eight daylight and eight night segments**. The action library contains all 249 quests and activities plus 269 trainable skill ranks. Search by quest, reward or place; filter by quest type, reward or skill tree.
 
 - Drag an action onto its starting segment, or click it in the library and then click a free segment. A preview shows the full placement. No-time quests show a point flag and are recorded as completed before work starting at that point, even when added after the dependent action. **Occupied segments reject the placement**; existing actions keep their dates. Click a block for its description, all rewards, conditions and checks, or to move, edit, unplace or remove it. Skill artwork and quest-type symbols identify compact blocks.
 - **Skills from build** adds the selected ranks to **Unplaced**, preserving the build's learning order. Choose each rank's position on the board. A missing time estimate must be supplied before placement. No-time quests, skills and milestones appear beneath the matching phase with their exact point (0–7/8), name and checks. They can share occupied time without reserving a segment; unknown time stays explicitly unconfirmed.
@@ -81,3 +81,12 @@ All quest data is embedded in **Dawnwalker.html** and works offline. Links open 
 - On narrow screens, **Actions** opens the library above the board. Choosing an action expands the day rows for more precise segment selection. Touch and keyboard users can place and move without dragging. Larger labels, quest descriptions, rewards and rank controls use a wider library and fewer calendar columns.
 
 Disable **Use progress, choices and timers from Quests** for a fresh route without clearing the journal. Planning never writes completion or learned ranks back to the other sections. Whole-quest costs remain estimates; enter remaining work for the chosen route. Manual collection, blood acquisition, Corruption and skill-point gains are not automatically simulated.
+
+
+## World activities
+
+The catalogue includes 14 Person in Danger locations, 15 bandit camps and 13 soldier camps. Each rescue shows **1 skill point / 1 time segment**. Names identify a nearby shrine and direction, and the Source link opens the exact map location from the journal or timeline inspector.
+
+Six camps list documented ability manuals. Other chest contents are labelled as variable; seven treasure hunts include reported item finds. Shrine restorations show their fast-travel unlock. Ancient Circles, wisp treasures and the three named Ambrus cellars use 1 segment each. Camps, shrine restorations and treasure digs are planned separately to avoid duplicate time charges.
+
+Eleven soldier camps and the shared Hidden & Safe investigation retain unknown costs until confirmed; enter a personal estimate to place them. The original 207 journal IDs, saved plans, completion marks and Base64 exports remain compatible. Skill-point rewards are displayed but do not automatically increase the build budget.
