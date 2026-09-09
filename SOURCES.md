@@ -411,3 +411,14 @@ The previous component reproduces the placement-layout regression in a hook-base
 Placed quest blocks and zero-time quest points now show a hover preview using the existing quest descriptions, metadata and reward presentation. It includes the chosen calendar position and planned cost, with reward artwork and recorded outcome conditions. Continuation blocks show the same quest information. The existing HoverCard primitive handles opening, focus, dismissal and popup positioning without adding an element around the calendar button. The preview closes on pointer press and is suppressed during dragging, click placement and editing. Ordinary clicks still open the editor.
 
 No catalogue, rule, image, font or third-party component was changed. Server-rendered checks cover preview content and suppression, with the popup portal shell replaced for inspection. Existing drag-handler checks still pass. Native hover timing, popup placement and physical-device interaction were not exercised. Evidence is retained in `research/timeline-hover/`.
+
+
+## Portable timeline codes and shared quest marks — 9 September 2026
+
+Timeline exports now encode UTF-8 plan data as Base64 with the `DWT1-` prefix. A code contains the calendar, learned baseline and current shared quest journal, including progress, choices, clock and timers. Import validates the existing timeline shape and journal, accepts code files and earlier JSON exports, and leaves the current state unchanged on invalid input. Legacy plan-only JSON preserves the current journal. Immediate Timeline Undo restores both imported states; journal edits made afterward are retained.
+
+The Quests and Timeline views now use one journal owner with the same existing local storage key. Failed and Not interested marks can be set from Timeline's library or inspector, persist in Quests and are included in codes. The availability filter makes excluded quests accessible for restoration. Existing reservations retain their dates and time until removed; excluded quests cannot grant planned completion. The shared journal's Undo also covers marks made from Timeline.
+
+Not interested is distinct from failure. It does not count as an active during-prerequisite, does not start Sacred Covenant or close the prologue, and does not create a failed-ancestor warning. A missing prerequisite is still missing. Explicit failed/not-interested exclusions remain in effect when other journal baseline progress is disabled. No quest catalogue, source, time cost, reward, dependency link, image or font was changed.
+
+Round-trip, Unicode, maximum-size, invalid-code, compatibility, status, dependency and prologue tests are recorded in `research/timeline-codes-status/`, alongside component-handler checks for both views, persistence, restoration, import and undo. Render checks preserve the existing drag and hover behavior. Native clipboard, dialog focus, mouse gestures and physical-device layout remain unverified.
