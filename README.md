@@ -1,4 +1,4 @@
-# Dawnwalker Skill Planner
+# Dawnwalker Planner
 
 **[Open the calculator](https://nikburnt.github.io/dawnwalker/)**
 
@@ -24,7 +24,7 @@ All SP and training-time costs are known. The five skull unlocks require Vrakhir
 
 The wiki cross-check adds 22 acquisition routes to the catalogue, four numerical Ultimate effects, Nourishing Blood Corruption gates, and corrections for manual unlocks and direct blood rewards. Acquisition guides are linked from **Manuals** where available.
 
-Dirty Trick I, Compel Soul I, Astral Communion I, Burning Blood I and Voracious Bite I start learned for free. They remain after Clear and are added to older saved builds and shared links. Add further ranks, then equip learned abilities in the available slots. Open the build summary for costs and effects. Planning mode allows future acquisition requirements; **My resources** checks your budgets and Corruption. Manuals are counted from catalogue starting ranks, and quests remain acquisition notes.
+Dirty Trick I, Compel Soul I, Astral Communion I, Burning Blood I and Voracious Bite I start learned for free. They remain after Clear and are added to older saved builds and shared links. Add further ranks, then equip learned abilities in the available slots. Open the build summary for costs and effects. Planning mode allows future acquisition requirements; **My resources** checks your budgets and Corruption. Manuals are counted from catalogue starting ranks. Quest tracking has its own section and does not change skill ranks or resource budgets.
 
 Builds stay in your browser. **Export** provides a shareable link and a 78-character code; **Import** accepts either. They preserve ranks, equipped slot order and resources. Shared links load automatically, and **Undo** restores the previous build. Damaged codes do not change it. Costs use the catalogue; unconfirmed values are marked with a question mark. Older builds still load, but legacy personal cost overrides and manual unlock flags are ignored. Sources and media attribution are retained in the project documentation and metadata.
 
@@ -49,3 +49,18 @@ Game icons, illustrations and animation footage belong to their respective right
 Game resource icons also appear inside skill descriptions and rank effects: the hourglass after time segments and the golden glyph after Activation Charges. Casting costs show a charge icon and, when Health is spent, the game’s health icon before the values. The original artwork is embedded for offline use.
 
 Vampirism cards use the original Corruption mouth with a red threshold, a distinct blood-unlock skull and the yellow, orange and red skulls after Tough enemies in Death from Above. Corruption mentions and Perfect Riposte’s Critical Direction also retain their screenshot glyphs. These use unmodified embedded source images.
+
+
+## Quest journal
+
+Switch to **Quests** in the top navigation. The skill build and its undo history stay in place when you switch sections.
+
+- Browse all **207 MetaBot entries** (29 main quests, 31 side quests and 147 activities) in **Chains** or **List** view. **75 documented connections** distinguish required steps, optional branches, alternate routes and materials needed to finish a quest. The nine named groups organize related questlines; arrows are based on documented connections, not region recommendations or walkthrough list order.
+- Search by quest, reward or place. Filter by reward category and item rarity; **More filters** adds quest type, region, progress and choices/timing checks. A reward type and rarity must belong to the same item. Matching quests keep their known ancestors visible as **Chain context**. **Respect my reward choices** hides reward alternatives excluded by recorded decisions.
+- Mark quests **Not started**, **In progress**, **Completed** or **Failed / missed**. Record the supported decisions inside a quest. **15 choice checks** cover village entry, Mert, Crake, the Font, Lacra, the relic, Court blood rewards, the dream and final routes. Consequences are previewed before saving a conflicting change; other quest statuses are never silently changed. **Undo** restores the last tracker change.
+- Open **Your game clock** to enter elapsed days and segments after the prologue. **Eight timers** use explicitly recorded objective triggers. Advancing the tracker clock shows waiting periods and deadlines; checking off a quest does not spend time or start a timer. The 30-day family deadline is not treated as failure of every side quest.
+- Rewards include possible quest items, optional loot and outcome rewards. The catalog retains **338 MetaBot reward entries** and adds **21 source-backed entries** from PowerPyx, including skill unlocks and the sanzhani time refund. Conditional rewards stay separate: for example, Font of Life and Ancient Greaves cannot both be obtained from the same Font choice. Raw MetaBot outcome numbers are shown separately because their mapping to the recorded decisions has not been verified.
+- Quest progress autosaves under its own browser storage key. Use **Export progress / Import** to move it between devices, or **Clear tracker** to start again; both replacement and clearing can be undone. Skill share links and skill resource budgets remain separate.
+
+All quest data is embedded in **Dawnwalker.html** and works offline. Links open the full guides when online. Unconfirmed locations, time and unlisted rewards remain explicit. The cross-quest checks cover documented cases, not every possible game state. No save-game import or automatic synchronization with the game is provided.
+
