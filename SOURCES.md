@@ -404,3 +404,10 @@ Compatibility, phase arithmetic, the prologue boundary, family budget, All Good 
 Dragging placed actions now uses temporary drag state separately from click placement, so it does not insert quest details, resize the calendar or disable other action blocks. Dragging a long block retains the grabbed segment, including continuations across skipped phases. Zero-time points can be moved directly; cancellation and invalid drops leave dates unchanged. Ordinary clicks still open the inspector. This changes interaction only; the calendar model and all catalogues, rules, sources and media are unchanged.
 
 The previous component reproduces the placement-layout regression in a hook-based handler harness. The updated component passes direct-move, cancellation, overlap, point, continuation, library and unplaced-action checks, alongside existing model and server-rendered checks. These checks exercise component callbacks; native browser drag gestures and physical-device behavior remain unverified. Evidence is retained in `research/timeline-drag/`.
+
+
+## Calendar quest hover preview — 9 September 2026
+
+Placed quest blocks and zero-time quest points now show a hover preview using the existing quest descriptions, metadata and reward presentation. It includes the chosen calendar position and planned cost, with reward artwork and recorded outcome conditions. Continuation blocks show the same quest information. The existing HoverCard primitive handles opening, focus, dismissal and popup positioning without adding an element around the calendar button. The preview closes on pointer press and is suppressed during dragging, click placement and editing. Ordinary clicks still open the editor.
+
+No catalogue, rule, image, font or third-party component was changed. Server-rendered checks cover preview content and suppression, with the popup portal shell replaced for inspection. Existing drag-handler checks still pass. Native hover timing, popup placement and physical-device interaction were not exercised. Evidence is retained in `research/timeline-hover/`.
