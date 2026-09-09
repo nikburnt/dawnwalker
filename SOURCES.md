@@ -386,3 +386,14 @@ The existing version-1 export adds an optional calendar layout and per-action st
 Projection applies completion in chronological order, so a long quest does not unlock its successor during a free phase. Finish prerequisites, choices and objective deadlines are rechecked at completion, including triggers recorded while a quest was in progress. Already learned ranks or completed quests retained as reservations are flagged for removal. They cannot grant progress again; fixed reservations are not silently erased.
 
 The compact library previews named rewards and their artwork; selecting or opening the action exposes every reward and recorded condition. All prior sources and media remain unchanged. Model, server-rendered content, type, lint and offline artifact checks are recorded in `research/timeline-board/`. Browser layout, native drag/drop, dialog focus and physical-device interaction have not been exercised for this update.
+
+
+## Prologue and no-time completion points — 9 September 2026
+
+The calendar now shows one separate prologue day before the 30 main days, using the requested eight daylight/eight night planning layout. Existing main-day dates and the 480-segment family deadline are unchanged. Prologue positions are saved before Day 1 and do not consume or extend that family budget. This display does not revise any catalogued quest time, reward, phase or route.
+
+No-time quests are explicit completion points. The catalog already records All Good Things as zero time in both phases. [Withering Away](https://www.powerpyx.com/blood-of-dawnwalker-withering-away-walkthrough/) and [Live Bait](https://www.powerpyx.com/blood-of-dawnwalker-live-bait-walkthrough/) require its completion; the latter must be finished before [Sacred Covenant](https://www.powerpyx.com/blood-of-dawnwalker-sacred-covenant-walkthrough/). These sources were checked again on 9 September. Their existing prerequisite and cutoff rules were retained.
+
+A completion point is applied before timed work beginning at the same position, regardless of which was added to the plan first. It may share a position inside reserved time and has a visible point preview, phase position and named entry. Multiple zero-time points at one position retain their insertion order. Unknown duration is displayed separately as unconfirmed, not as known zero time. Font sizes and available widths have been increased across the timeline without changing the skill tree or quest journal.
+
+Compatibility, phase arithmetic, the prologue boundary, family budget, All Good Things ordering, same-point Sacred Covenant cutoffs, no-time moves and import checks are recorded in `research/timeline-prologue/`. Native browser drag/drop, focus and physical-device layout remain outside the performed automated checks.
