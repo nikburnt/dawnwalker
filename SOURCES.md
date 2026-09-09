@@ -397,3 +397,10 @@ No-time quests are explicit completion points. The catalog already records All G
 A completion point is applied before timed work beginning at the same position, regardless of which was added to the plan first. It may share a position inside reserved time and has a visible point preview, phase position and named entry. Multiple zero-time points at one position retain their insertion order. Unknown duration is displayed separately as unconfirmed, not as known zero time. Font sizes and available widths have been increased across the timeline without changing the skill tree or quest journal.
 
 Compatibility, phase arithmetic, the prologue boundary, family budget, All Good Things ordering, same-point Sacred Covenant cutoffs, no-time moves and import checks are recorded in `research/timeline-prologue/`. Native browser drag/drop, focus and physical-device layout remain outside the performed automated checks.
+
+
+## Direct timeline dragging — 9 September 2026
+
+Dragging placed actions now uses temporary drag state separately from click placement, so it does not insert quest details, resize the calendar or disable other action blocks. Dragging a long block retains the grabbed segment, including continuations across skipped phases. Zero-time points can be moved directly; cancellation and invalid drops leave dates unchanged. Ordinary clicks still open the inspector. This changes interaction only; the calendar model and all catalogues, rules, sources and media are unchanged.
+
+The previous component reproduces the placement-layout regression in a hook-based handler harness. The updated component passes direct-move, cancellation, overlap, point, continuation, library and unplaced-action checks, alongside existing model and server-rendered checks. These checks exercise component callbacks; native browser drag gestures and physical-device behavior remain unverified. Evidence is retained in `research/timeline-drag/`.
