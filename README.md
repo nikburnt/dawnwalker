@@ -97,3 +97,8 @@ Dead Drop, Enter Not, If a Tree Falls in a Forest and the three towers are confi
 ## Compact plan links
 
 The page link stores learning order and timeline/journal data as compact binary Base64url codes with checksums. Numeric IDs replace repeated quest and skill names while retaining action order, dates, statuses, choices, timers and custom names. Earlier JSON learning orders and DWT1 timeline links still load and upgrade automatically.
+
+## Quest page controls
+
+The quest page starts with search and filters. **Game clock** opens beside search. The quest count sits above the results; a warning icon appears beside **Chains / List** only when tracked warnings exist, and opens those warnings directly above the quests.
+
